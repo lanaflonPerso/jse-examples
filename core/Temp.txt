@@ -1,0 +1,19 @@
+{  
+      "poID":281474976788893,
+      "name":"LTE06ERBS00002",
+      "nodeFdn":"MeContext=LTE06ERBS00002,ManagedElement=1,ENodeBFunction=1",
+      "nodeType":"ERBS",
+      "kpiName":null,
+      "kpiValue":"NaN",
+      "cells":[  
+         {  
+            "poID":"1",
+            "name":"LTE06ERBS00002-2",
+            "fdn":"MeContext=LTE06ERBS00002,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=LTE06ERBS00002-2",
+            "neType":"EUtranCellFDD",
+            "kpiValue":"NaN",
+            "breached":false
+         }
+      ],
+      "breached":false
+}

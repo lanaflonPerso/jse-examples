@@ -1,0 +1,11 @@
+{
+  "name": "mkyong",
+  "age": 29,
+  "messages": [
+    "msg 1",
+    "msg 2",
+    "msg 3"
+  ],
+  "nullString": null,
+  "emptyString": ""
+}
