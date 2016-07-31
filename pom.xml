@@ -132,5 +132,6 @@
         <module>datastruct</module>
         <module>core</module>
         <module>designpattern</module>
+        <module>java-profiling</module>
     </modules>
 </project>
