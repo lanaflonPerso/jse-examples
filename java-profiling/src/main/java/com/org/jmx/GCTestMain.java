@@ -15,6 +15,11 @@ import javax.management.ObjectName;
  *  -Dcom.sun.management.jmxremote.port=1617
  *  -Dcom.sun.management.jmxremote.authenticate=false
  *  -Dcom.sun.management.jmxremote.ssl=false
+ *  -XX:+UnlockCommercialFeatures
+ *  -XX:+FlightRecorder
+ *
+ *  start any jmx console i.e. jconsole, jvisualvm or jmc(java mission control)
+ *  https://github.com/Himansu-Nayak/ebooks/blob/master/java%20profilers.jpg
  */
 public class GCTestMain {
 
