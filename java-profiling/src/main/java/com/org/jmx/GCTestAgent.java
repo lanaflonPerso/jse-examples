@@ -9,6 +9,7 @@ public class GCTestAgent implements GCTestAgentMBean, Runnable {
 
     @Override
     public void newThread(String threadName) {
+        System.out.println("GCTestAgent.newThread");
         Thread newThread = new Thread(this);
         newThread.setName(threadName);
         newThread.start();
@@ -16,11 +17,13 @@ public class GCTestAgent implements GCTestAgentMBean, Runnable {
 
     @Override
     public void newCollectableObject(int size) {
+        System.out.println("GCTestAgent.newCollectableObject");
         createObject(size);
     }
 
     private Object createObject(int size) {
         ArrayList<String> list = new ArrayList<>();
+        System.out.println("Size of arrayList : " + size);
         for (int i = 0; i < size; i++) {
             list.add( (new Date()).toString() + " " +  i);
         }
@@ -29,6 +32,7 @@ public class GCTestAgent implements GCTestAgentMBean, Runnable {
 
     @Override
     public void newLeakedObject(int size) {
+        System.out.println("GCTestAgent.newLeakedObject");
         leakingMap.add(createObject(size));
     }
 
@@ -46,11 +50,13 @@ public class GCTestAgent implements GCTestAgentMBean, Runnable {
 
     @Override
     public void clearLeaked() {
+        System.out.println("GCTestAgent.clearLeaked");
         leakingMap.clear();
     }
 
     @Override
     public void cpuIntensiveOperation(int iterations) {
+        System.out.println("GCTestAgent.cpuIntensiveOperation {}" + iterations);
         int[] myArrayToBeSorted = new int[] {4,2,6,7,2,1,6};
         for (int i = 0; i < iterations; i++) {
             for (int j = 0; j < myArrayToBeSorted.length - 1; j++) {

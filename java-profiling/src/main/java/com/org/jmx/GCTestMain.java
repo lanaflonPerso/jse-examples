@@ -1,6 +1,7 @@
 package com.org.jmx;
 
 import java.lang.management.ManagementFactory;
+import java.util.concurrent.TimeUnit;
 
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.MBeanRegistrationException;
@@ -19,7 +20,9 @@ import javax.management.ObjectName;
  *  -XX:+FlightRecorder
  *
  *  start any jmx console i.e. jconsole, jvisualvm or jmc(java mission control)
- *  https://github.com/Himansu-Nayak/ebooks/blob/master/java%20profilers.jpg
+ *  also use eclipse memory analyser rcp
+ *  list of profiler :
+ *          https://github.com/Himansu-Nayak/ebooks/blob/master/java%20profilers.jpg
  */
 public class GCTestMain {
 
@@ -32,10 +35,11 @@ public class GCTestMain {
         mbs.registerMBean(agent, agentName);
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String...args) throws Exception {
         init();
+        System.out.println("Start Infinite running time Thread");
         for (;;) {
-            Thread.sleep(1000);
+            TimeUnit.SECONDS.sleep(1);
         }
     }
 }
