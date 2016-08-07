@@ -1,3 +1,4 @@
+/*
 package com.core.java8.defaults;
 
 import java.io.IOException;
