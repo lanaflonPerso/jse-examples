@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.org.core</groupId>
-    <artifactId>corejava-examples</artifactId>
+    <artifactId>jse-examples</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>corejava-examples</name>
+    <name>jse-examples</name>
     <description>core java examples</description>
 
     <properties>
@@ -133,5 +133,6 @@
         <module>core</module>
         <module>designpattern</module>
         <module>java-profiling</module>
+        <module>jmh-benchmarking</module>
     </modules>
 </project>

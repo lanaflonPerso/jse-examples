@@ -135,7 +135,7 @@ A programming idiom is a means of expressing a recurring construct in one or mor
 ## <a name="factory-method">Factory Method</a> [&#8593;](#list-of-design-patterns)
 **Intent:** Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
-![alt text](https://github.com/Himansu-Nayak/corejava-examples/tree/master/designpattern/factory-method/etc/factory-method_1.png "Factory Method")
+![alt text](https://github.com/Himansu-Nayak/jse-examples/tree/master/designpattern/factory-method/etc/factory-method_1.png "Factory Method")
 
 **Applicability:** Use the Factory Method pattern when
 * a class can't anticipate the class of objects it must create

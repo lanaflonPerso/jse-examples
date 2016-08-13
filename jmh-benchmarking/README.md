@@ -94,7 +94,11 @@ $ mvn clean install
 $ java -jar target/benchmarks.jar
 
 Reference:
+
 http://hg.openjdk.java.net/code-tools
+
 http://psy-lob-saw.blogspot.com/2013/05/using-jmh-to-benchmark-multi-threaded.html
+
 http://psy-lob-saw.blogspot.com/2013/04/writing-java-micro-benchmarks-with-jmh.html
+
 http://nitschinger.at/Using-JMH-for-Java-Microbenchmarking/

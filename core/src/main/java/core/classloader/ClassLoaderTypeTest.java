@@ -17,7 +17,7 @@ public class ClassLoaderTypeTest {
             IllegalAccessException, InvocationTargetException, InstantiationException {
         // Getting the jar URL which contains target class
         URL[] classLoaderUrls = new URL[] {
-                new URL("file:///C://Mercury/github/corejava-examples/target/corejava-examples-0.0.1-SNAPSHOT.jar") };
+                new URL("file:///C://Mercury/github/jse-examples/target/jse-examples-0.0.1-SNAPSHOT.jar") };
 
         // Create a new URLClassLoader
         URLClassLoader urlClassLoader = new URLClassLoader(classLoaderUrls);

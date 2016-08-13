@@ -72,3 +72,9 @@ Profiles](http://docs.oracle.com/javase/8/docs/technotes/guides/compactprofiles/
  [**Java Virtual Machine**](http://docs.oracle.com/javase/8/docs/technotes/guides/vm/index.html) 
 
  [Java HotSpot Client and Server VM](http://docs.oracle.com/javase/8/docs/technotes/guides/vm/index.html)    
+
+
+Reference :
+http://psy-lob-saw.blogspot.ie/2013/05/using-jmh-to-benchmark-multi-threaded.html
+http://psy-lob-saw.blogspot.ie/2013/04/writing-java-micro-benchmarks-with-jmh.html
+http://nitschinger.at/Using-JMH-for-Java-Microbenchmarking/

@@ -3,7 +3,7 @@ package core.designpattern.creation.singleton;
 //Variant 1
 public enum SingletonVariantMain {
     SINGLETON;
-    public static void main(String... args) {
+    public static void main(String...args) {
         SingletonVariantMain.SINGLETON.print();
     }
 

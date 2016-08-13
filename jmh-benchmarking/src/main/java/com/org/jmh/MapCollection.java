@@ -142,10 +142,12 @@ public class MapCollection {
         }
     }
 
-    public static void main(String[] args) throws RunnerException {
-        Options opt = new OptionsBuilder().include(MapCollection.class.getSimpleName()).warmupIterations(10)
-                .measurementIterations(20).forks(1).build();
-
-        new Runner(opt).run();
+    public static void main(String...args) throws RunnerException {
+        new Runner(new OptionsBuilder()
+                .include(MapCollection.class.getSimpleName())
+                .warmupIterations(10)
+                .measurementIterations(20)
+                .forks(1)
+                .build()).run();
     }
 }
