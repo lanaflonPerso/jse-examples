@@ -133,6 +133,5 @@
         <module>core</module>
         <module>designpattern</module>
         <module>java-profiling</module>
-        <module>jmh-benchmarking</module>
     </modules>
 </project>
