@@ -14,6 +14,10 @@ import javax.xml.stream.events.XMLEvent;
 
 import core.xml.dom.Employee;
 
+/**
+ * http://tutorials.jenkov.com/java-xml/sax-vs-stax.html
+ *
+ */
 public class StaxCursorXMLReader {
 
     public static void main(String... args) {

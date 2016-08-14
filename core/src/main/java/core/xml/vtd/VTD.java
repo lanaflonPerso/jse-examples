@@ -8,8 +8,10 @@ import com.ximpleware.VTDNav;
 
 /**
  * VTD-XML: The Future of XML Processing TD-XML is the next generation XML
- * parser/indexer/editor/slicer/assembler/xpath-engine that goes beyond DOM, SAX and PULL in performance, memory usage,
- * and ease of use.
+ * parser/indexer/editor/slicer/assembler/xpath-engine that goes beyond DOM, SAX and PULL in performance,
+ * memory usage, and ease of use.
+ *
+ * http://vtd-xml.sourceforge.net/
  */
 public class VTD {
     public static void main(String... args) {
