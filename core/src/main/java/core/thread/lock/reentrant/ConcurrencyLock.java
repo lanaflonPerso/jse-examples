@@ -1,4 +1,4 @@
-package core.thread.lock;
+package core.thread.lock.reentrant;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;

@@ -1,4 +1,4 @@
-package core.thread.lock;
+package core.thread.lock.reentrant;
 
 public class CocurrencyLockMain {
     public static void main(String... args) {
