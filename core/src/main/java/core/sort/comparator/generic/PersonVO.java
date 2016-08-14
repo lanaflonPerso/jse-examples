@@ -1,4 +1,4 @@
-package core.sort.comparator;
+package core.sort.comparator.generic;
 
 import java.io.Serializable;
 import java.util.Date;

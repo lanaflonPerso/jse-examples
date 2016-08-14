@@ -1,4 +1,4 @@
-package core.sort.comparator;
+package core.sort.comparator.combine;
 
 import java.util.Arrays;
 

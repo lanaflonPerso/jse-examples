@@ -8,12 +8,15 @@ import java.util.List;
 
 /**
  * http://mindprod.com/jgloss/phantom.html
+ * 1. WeakReference
+ * 2. SoftReference
+ * 3. PhantomReference
+ * 4. default StrongReference
  */
 public class Reference {
 
-    public static WeakReference<List> WeakReference(List reference){
-        WeakReference<List> weakRef = new WeakReference<>(reference);
-        return weakRef;
+    public static List StrongReference(List strongReference){
+        return strongReference;
     }
 
     public static SoftReference<List> SoftReference(List reference){
@@ -21,8 +24,9 @@ public class Reference {
         return softRef;
     }
 
-    public static List StrongReference(List strongReference){
-        return strongReference;
+    public static WeakReference<List> WeakReference(List reference){
+        WeakReference<List> weakRef = new WeakReference<>(reference);
+        return weakRef;
     }
 
     public static PhantomReference PhantomReference(List reference){

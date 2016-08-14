@@ -1,4 +1,4 @@
-package core.sort.comparator;
+package core.sort.comparator.mixsort;
 
 /*
  * The MixModeComparator Algorithm is an improved com.org.ds.sorting algorithm for com.org.ds.strings
@@ -24,7 +24,7 @@ public class MixModeComparator implements Comparator {
      * Compares two string ending with numbers.
      * 
      * @param s1
-     * @param o2
+     * @param s2
      * @return int - compare return value -1, 0 or 1.
      */
     private int compareAlphaNumString(String s1, String s2) {

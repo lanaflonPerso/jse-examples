@@ -1,4 +1,4 @@
-package core.sort.comparator;
+package core.sort.comparator.mixsort;
 
 import java.util.ArrayList;
 import java.util.Collections;

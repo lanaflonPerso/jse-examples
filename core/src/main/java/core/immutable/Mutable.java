@@ -23,6 +23,7 @@ public class Mutable extends Immutable {
 
     public static void main(String...arg) {
         Mutable obj = new Mutable(4);
+        //upcasting
         Immutable immObj = obj;
         System.out.println(immObj.getValue());
         obj.setValue(8);
