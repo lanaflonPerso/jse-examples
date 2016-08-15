@@ -26,7 +26,7 @@ public class SAXParserMain {
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
             SAXParserHandler handler = new SAXParserHandler();
-            n.parse(new File("employee.xml"), handler);
+            saxParser.parse(new File("employee.xml"), handler);
             // Get Employees list
             List<Employee> empList = handler.getEmpList();
             // print employee information

@@ -10,9 +10,9 @@ public class ThreadSynchronizedMain {
         Thread t3 = new Thread(threadSynchronized, "Thread Gamma");
 
         // start all the threads
-        t1.start();
+        /*t1.start();
         t2.start();
-        t3.start();
+        t3.start();*/
 
         // wait for threads to finish
         t1.join();

@@ -1,16 +1,16 @@
-package com.org.ds.concurrency;
+package main.java.core.thread.lock.semaphore;
 
 /**
  * Implements a counting semaphore implementation. This can be used as a mutex by initializing the count to one.
  */
-public class Semaphore {
+public class BinarySemaphore {
     private int count;
     private int waitCount = 0;
 
-    public Semaphore(int count) {
+    public BinarySemaphore(int count) {
         if (count <= 0) {
             throw new IllegalArgumentException(
-                    String.format("Semaphore count should be greater than zero. You passed: %d.", count));
+                    String.format("BinarySemaphore count should be greater than zero. You passed: %d.", count));
         }
 
         this.count = count;
@@ -18,7 +18,7 @@ public class Semaphore {
 
     // Simple tests for the above class.
     public static void main(String... argsargs) {
-        final Semaphore semaphore = new Semaphore(2);
+        final BinarySemaphore semaphore = new BinarySemaphore(2);
         new Thread(new Runnable() {
             @Override
             public void run() {
