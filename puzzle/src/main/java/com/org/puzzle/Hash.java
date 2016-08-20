@@ -1,4 +1,4 @@
-package core.puzzle;
+package com.org.puzzle;
 
 class Name implements Cloneable {
     private String name;

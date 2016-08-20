@@ -133,5 +133,6 @@
         <module>core</module>
         <module>designpattern</module>
         <module>java-profiling</module>
+        <module>puzzle</module>
     </modules>
 </project>

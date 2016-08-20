@@ -1,4 +1,4 @@
-package core.puzzle;
+package com.org.puzzle;
 
 public class IntermediateSorting {
     public static void main(String... args) {

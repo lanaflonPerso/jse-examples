@@ -1,4 +1,4 @@
-package core.puzzle;
+package com.org.puzzle;
 
 /**
  * Created by ehimnay on 06/04/2016.

@@ -1,4 +1,4 @@
-package core.puzzle;
+package com.org.puzzle;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

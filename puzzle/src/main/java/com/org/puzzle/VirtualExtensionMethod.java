@@ -1,4 +1,4 @@
-package core.puzzle;
+package com.org.puzzle;
 
 import static java.lang.Math.sqrt;
 
