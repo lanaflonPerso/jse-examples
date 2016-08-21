@@ -1,6 +1,4 @@
-package core;
-
-import core.puzzle.AccessModifier;
+package com.org.puzzle;
 
 public class AccessModifierMain {
     public static void main(String[] args) {

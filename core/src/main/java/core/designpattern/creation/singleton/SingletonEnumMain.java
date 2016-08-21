@@ -1,14 +1,17 @@
 package core.designpattern.creation.singleton;
 
 //Variant 1
-public enum SingletonVariantMain {
+public enum SingletonEnumMain {
     SINGLETON;
+    private String name = "Singleton Using Enum";
+
+
     public static void main(String...args) {
-        SingletonVariantMain.SINGLETON.print();
+        SingletonEnumMain.SINGLETON.print();
     }
 
     public boolean print() {
-        System.out.println("Singleton using Enum");
+        System.out.println(name);
         return true;
     }
 
@@ -30,13 +33,17 @@ class SingletonEagerInitialization {
     }
 
     public void print() {
-        System.out.println("Inside print Singleton");
+        System.out.println("Eager Singleton");
     }
 }
 
 // Variant 3
 class SingletonLazyInitialization {
     private static SingletonLazyInitialization singleton;
+
+    private SingletonLazyInitialization(){
+
+    }
 
     public static SingletonLazyInitialization getSingletonInstance() {
         if (null == singleton) {
@@ -50,7 +57,7 @@ class SingletonLazyInitialization {
     }
 
     public void print() {
-        System.out.println("Inside print Singleton");
+        System.out.println("Lazy Singleton");
     }
 }
 
@@ -74,7 +81,7 @@ class SingletonDoubleCheck {
     }
 
     public void print() {
-        System.out.println("Inside print Singleton");
+        System.out.println("Double Check Lazy Singleton");
     }
 }
 
@@ -85,23 +92,19 @@ class SingletonBillPugh {
     }
 
     public static SingletonBillPugh getSingletonInstance() {
-        return NestedClass.instance;
+        return NestedClass.singleton;
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         getSingletonInstance().print();
     }
 
     public void print() {
-        System.out.println("Inside print Singleton");
+        System.out.println("BillPugh Singleton - NestedClass get load only after getSingletonInstance() is called");
     }
 
     static class NestedClass {
-
-        static final SingletonBillPugh instance = new SingletonBillPugh();
-
-        NestedClass() {
-        }
+        static final SingletonBillPugh singleton = new SingletonBillPugh();
     }
 
 }
