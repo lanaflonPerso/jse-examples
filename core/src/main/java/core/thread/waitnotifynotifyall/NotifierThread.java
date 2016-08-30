@@ -1,4 +1,4 @@
-package core.thread.communication;
+package core.thread.waitnotifynotifyall;
 
 public class NotifierThread implements Runnable {
 
@@ -13,10 +13,11 @@ public class NotifierThread implements Runnable {
         String name = Thread.currentThread().getName();
         System.out.println(name + " started");
         try {
-            Thread.sleep(1000);
+            Thread.sleep(5000);
             synchronized (msg) {
                 msg.setMsg(name + " NotifierThread work done");
                 msg.notify();
+                Thread.sleep(600000);
                 // msg.notifyAll();
             }
         } catch (InterruptedException e) {

@@ -2,6 +2,11 @@ package core.thread.daemon;
 
 class DaemonThread implements Runnable {
 
+    private String msg;
+
+    public DaemonThread(String msg){
+        this.msg = msg;
+    }
     @Override
     public void run() {
         while (true) {
@@ -11,7 +16,7 @@ class DaemonThread implements Runnable {
 
     private void task() {
         try {
-            System.out.println("My life dependes on User Thread's");
+            System.out.println(msg);
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();

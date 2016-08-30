@@ -1,4 +1,4 @@
-package core.thread.communication;
+package core.thread.waitnotifynotifyall;
 
 public class Message {
     private String msg;

@@ -1,4 +1,4 @@
-package core.thread.communication;
+package core.thread.waitnotifynotifyall;
 
 public class WaitNotifyMain {
 
@@ -12,7 +12,6 @@ public class WaitNotifyMain {
 
         NotifierThread notifierThread = new NotifierThread(message);
         new Thread(notifierThread, "notifier").start();
-        System.out.println("All the threads are started");
     }
 
 }

@@ -1,4 +1,4 @@
-package core.thread.communication;
+package core.thread.waitnotifynotifyall;
 
 public class WaitThread implements Runnable {
 
@@ -11,12 +11,14 @@ public class WaitThread implements Runnable {
     @Override
     public void run() {
         synchronized (objectForCommunication) {
+            System.out.println(Thread.currentThread().getName() + " has obtain the monitor");
             try {
+                Thread.sleep(5000);
                 objectForCommunication.wait();
+                System.out.println(Thread.currentThread().getName() + " processed: " + objectForCommunication.getMsg());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println(Thread.currentThread().getName() + " processed: " + objectForCommunication.getMsg());
         }
     }
 }
