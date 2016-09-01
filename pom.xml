@@ -134,5 +134,6 @@
         <module>designpattern</module>
         <module>java-profiling</module>
         <module>puzzle</module>
+        <module>webservice</module>
     </modules>
 </project>

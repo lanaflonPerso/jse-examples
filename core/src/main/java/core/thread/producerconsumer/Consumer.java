@@ -3,7 +3,7 @@ package core.thread.producerconsumer;
 import java.util.concurrent.BlockingQueue;
 
 /*
- * Consumer consumer till the producer dont send the exit message
+ * Consumer consumer till the com.org.ws.producer dont send the exit message
  */
 public class Consumer implements Runnable {
 
