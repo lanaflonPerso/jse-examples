@@ -4,8 +4,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * Solves the second reader writer problem:
@@ -84,7 +83,7 @@ public class SecondReadWriteLock implements ReadWriteLock {
     }
 
     @Override
-    public void readLock() {
+    public void readLock() throws InterruptedException {
         long threadId = Thread.currentThread().getId();
 
         readerCheckinMutex.acquire();
@@ -100,7 +99,7 @@ public class SecondReadWriteLock implements ReadWriteLock {
     }
 
     @Override
-    public void readUnlock() {
+    public void readUnlock() throws InterruptedException {
         long threadId;
         try {
             readerCheckoutMutex.acquire();
@@ -121,7 +120,7 @@ public class SecondReadWriteLock implements ReadWriteLock {
     }
 
     @Override
-    public void writeLock() {
+    public void writeLock() throws InterruptedException {
         writerCheckinMutex.acquire();
         if (numWriters == 0) {
             readerCheckinMutex.acquire();
@@ -135,7 +134,7 @@ public class SecondReadWriteLock implements ReadWriteLock {
     }
 
     @Override
-    public void writeUnlock() {
+    public void writeUnlock() throws InterruptedException {
         Long threadId = Thread.currentThread().getId();
         if (writerId == null || !writerId.equals(threadId)) {
             throw new IllegalStateException(

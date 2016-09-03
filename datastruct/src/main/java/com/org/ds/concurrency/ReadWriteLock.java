@@ -4,11 +4,11 @@ package com.org.ds.concurrency;
  * Defines a com.org.ds.common interface for different types of read writer locks.
  */
 public interface ReadWriteLock {
-    void readLock();
+    void readLock() throws InterruptedException;
 
-    void readUnlock();
+    void readUnlock() throws InterruptedException;
 
-    void writeLock();
+    void writeLock() throws InterruptedException;
 
-    void writeUnlock();
+    void writeUnlock() throws InterruptedException;
 }

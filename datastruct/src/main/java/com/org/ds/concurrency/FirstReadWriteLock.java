@@ -3,6 +3,7 @@ package com.org.ds.concurrency;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.Semaphore;
 
 /**
  * Solves the first reader writer problem:
@@ -29,7 +30,7 @@ public class FirstReadWriteLock implements ReadWriteLock {
     private volatile Long writerId;
 
     @Override
-    public void readLock() {
+    public void readLock() throws InterruptedException {
         try {
             readMutex.acquire();
             readerIds.add(Thread.currentThread().getId());
@@ -42,7 +43,7 @@ public class FirstReadWriteLock implements ReadWriteLock {
     }
 
     @Override
-    public void readUnlock() {
+    public void readUnlock() throws InterruptedException {
         try {
             readMutex.acquire();
             long threadId = Thread.currentThread().getId();
@@ -61,7 +62,7 @@ public class FirstReadWriteLock implements ReadWriteLock {
     }
 
     @Override
-    public void writeLock() {
+    public void writeLock() throws InterruptedException {
         writeMutex.acquire();
         writerId = Thread.currentThread().getId();
     }

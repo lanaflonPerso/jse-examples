@@ -1,53 +1,45 @@
-import org.beanio.*;
-import java.io.*;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.beanio.BeanReader;
+import org.beanio.StreamFactory;
 
 /**
  * http://www.beanio.org/
+ * http://www.beanio.org/2.0/docs/reference/index.html#DelimitedStreamFormat
  */
 public class BeanReaderMain {
 
     public static void main(String... args) {
-        new BeanReaderMain().beanReader();
+        BeanReaderMain br = new BeanReaderMain();
+        List<Object> records = br.beanReader("C:\\Mercury\\github\\jse-examples\\beanio\\src\\main\\resources\\data.csv", "model/pmRopInfo.xml");
+        for(Object record :  records){
+            System.out.println(record);
+        }
     }
 
-    public void beanReader() {
-        // create a BeanIO StreamFactory
+    public List<Object> beanReader(final String resource, final String model) {
         StreamFactory factory = StreamFactory.newInstance();
-        // load the mapping file from the working directory
-        factory.load(getClass().getClassLoader().getResource("model/contacts.xml").getFile());
-
-        // create a BeanReader to read from "input.csv"
-        BeanReader in = factory.createReader("contacts",
-                getClass().getClassLoader().getResource("input.csv").getFile());
-        // create a BeanWriter to write to "output.csv"
-        BeanWriter out = factory.createWriter("contacts", new File("output.csv"));
-
-        Object record = null;
-
-        // read records from "input.csv"
-        while ((record = in.read()) != null) {
-
-            // process each record
-            if ("header".equals(in.getRecordName())) {
-                Map<String, Object> header = (Map<String, Object>) record;
-                System.out.println(header.get("fileDate"));
-            } else if ("contact".equals(in.getRecordName())) {
-                Contact contact = (Contact) record;
-                // process the contact...
-                System.out.println(contact);
-            } else if ("trailer".equals(in.getRecordName())) {
-                Integer recordCount = (Integer) record;
-                System.out.println(recordCount + " contacts processed");
+        factory.load(loadResource(model));
+        BeanReader beanReader = null;
+        final List<Object> recordList = new ArrayList<>();
+        try {
+            beanReader = factory.createReader("data", resource);
+            Object record;
+            while ((record = beanReader.read()) != null) {
+                recordList.add(record);
             }
-
-            // write the record to "output.csv"
-            out.write(record);
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        } finally {
+            if (beanReader != null) {
+                beanReader.close();
+            }
         }
+        return recordList;
+    }
 
-        in.close();
-
-        out.flush();
-        out.close();
+    public String loadResource(String resource){
+        return getClass().getClassLoader().getResource(resource).getFile();
     }
 }

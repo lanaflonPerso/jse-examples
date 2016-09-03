@@ -10,8 +10,8 @@
             <field name="fileDate" type="date" format="yyyy-MM-dd" />
         </record>
 
-        <!-- Detail records are bound to example.Contact -->
-        <record name="contact" class="Contact">
+        <!-- Detail records are bound to example.pojo.Contact -->
+        <record name="contact" class="pojo.Contact">
             <!-- 'ignore' indicates this field is not bound to a bean property -->
             <field name="recordType" rid="true" literal="D" ignore="true" />
             <field name="firstName" />
