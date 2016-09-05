@@ -8,5 +8,10 @@ public class EnumMain {
             System.out.println(DIRECTION.getDirection());
 
         }
+
+        ClientType client = ClientType.PMIC;
+        System.out.println(client.name());
+        System.out.println(client.value());
+        System.out.println(client.equal("PMIC"));
     }
 }

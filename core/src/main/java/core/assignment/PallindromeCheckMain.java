@@ -1,4 +1,4 @@
-package core.test;
+package core.assignment;
 
 public class PallindromeCheckMain {
     public static void main(String... args) {

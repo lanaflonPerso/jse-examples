@@ -1,4 +1,4 @@
-package core.test;
+package core.assignment;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

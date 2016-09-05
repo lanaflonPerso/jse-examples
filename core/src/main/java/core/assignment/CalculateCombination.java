@@ -27,7 +27,7 @@ should return 4, as we have all of these subsets
 multiplying to a value that differs from the target for less than the threshold.
  */
 
-package core.test;
+package core.assignment;
 
 import java.util.ArrayList;
 import java.util.Arrays;

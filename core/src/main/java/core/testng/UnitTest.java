@@ -1,4 +1,4 @@
-package core.test.testng;
+package core.testng;
 
 import static org.junit.Assert.assertEquals;
 

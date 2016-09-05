@@ -1,4 +1,4 @@
-package core.test;
+package core.assignment;
 
 import java.util.List;
 
