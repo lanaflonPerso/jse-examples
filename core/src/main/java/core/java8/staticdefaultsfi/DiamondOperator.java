@@ -1,4 +1,4 @@
-package core.java8.defaults;
+package core.java8.staticdefaultsfi;
 
 public class DiamondOperator implements DiamondProblemInterfaceA, DiamondProblemInterfaceB {
 

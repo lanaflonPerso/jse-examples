@@ -1,5 +1,6 @@
-package core.java8.defaults;
+package core.java8.staticdefaultsfi;
 
+// Not mandatory to annotate @FunctionalInterface
 @FunctionalInterface
 public interface DiamondProblemInterfaceB {
 
