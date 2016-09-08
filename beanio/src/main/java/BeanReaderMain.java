@@ -10,7 +10,7 @@ import org.beanio.StreamFactory;
  */
 public class BeanReaderMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         BeanReaderMain br = new BeanReaderMain();
         List<Object> records = br.beanReader("C:\\Mercury\\github\\jse-examples\\beanio\\src\\main\\resources\\data.csv", "model/pmRopInfo.xml");
         for(Object record :  records){
@@ -39,7 +39,11 @@ public class BeanReaderMain {
         return recordList;
     }
 
+    public String fileNameWithoutExt(final String fileName){
+        return fileName.substring(0, fileName.lastIndexOf('.'));
+    }
+
     public String loadResource(String resource){
-        return getClass().getClassLoader().getResource(resource).getFile();
+        return Thread.currentThread().getContextClassLoader().getResource(resource).getFile();
     }
 }

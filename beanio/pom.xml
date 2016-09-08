@@ -9,9 +9,9 @@
         <relativePath>../core/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.org.core</groupId>
     <artifactId>beanio</artifactId>
+    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
@@ -22,4 +22,20 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>${project.artifactId}-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
