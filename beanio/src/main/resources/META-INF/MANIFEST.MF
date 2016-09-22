@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Class-Path: mbean-annotation-api-4.7.4.jar hamcrest-core-1.3.jar openw
+ ebbeans-spi-1.2.7.jar xbean-bundleutils-4.2.jar activemq-kahadb-store
+ -5.10.2.jar bsh-2.0b4.jar geronimo-transaction-3.1.1.jar openejb-jee-
+ 4.7.4.jar commons-dbcp-1.4.jar FastInfoset-1.2.12.jar geronimo-j2ee-c
+ onnector_1.6_spec-1.0.jar xbean-asm5-shaded-3.17.jar commons-pool-1.5
+ .4.jar commons-lang3-3.3.2.jar javaee-api-6.0-6.jar hawtbuf-1.10.jar 
+ geronimo-javamail_1.4_mail-1.9.0-alpha-2.jar istack-commons-runtime-2
+ .16.jar commons-collections-3.2.2.jar openejb-api-4.7.4.jar xbean-fin
+ der-shaded-4.2.jar openejb-jpa-integration-4.7.4.jar activemq-client-
+ 5.10.2.jar openejb-javaagent-4.7.4.jar openwebbeans-ejb-1.2.7.jar act
+ ivemq-protobuf-1.1.jar geronimo-jms_1.1_spec-1.1.1.jar openjpa-2.4.1.
+ jar geronimo-jpa_2.0_spec-1.1.jar jaxb-core-2.2.7.jar openejb-jee-acc
+ essors-4.7.4.jar commons-cli-1.2.jar jansi-1.8.jar jackson-core-asl-1
+ .8.5.jar jsch-0.1.53.jar openwebbeans-web-1.2.7.jar openwebbeans-ee-1
+ .2.7.jar openejb-loader-4.7.4.jar commons-lang-2.6.jar bval-jsr303-0.
+ 5.jar beanio-2.1.0.jar openwebbeans-impl-1.2.7.jar sxc-runtime-0.8.ja
+ r geronimo-jta_1.1_spec-1.1.1.jar serp-1.15.1.jar log4j-1.2.17.jar sl
+ f4j-jdk14-1.7.14.jar commons-beanutils-core-1.8.3.jar hsqldb-2.3.2.ja
+ r xbean-naming-4.2.jar activemq-broker-5.10.2.jar slf4j-log4j12-1.7.1
+ .jar snakeyaml-1.6.jar junit-4.12.jar openwebbeans-ee-common-1.2.7.ja
+ r bval-core-0.5.jar testng-6.8.jar xbean-reflect-4.2.jar howl-1.0.1-1
+ .jar jaxb-impl-2.2.7.jar jackson-mapper-asl-1.8.5.jar slf4j-api-1.7.1
+ .jar activemq-openwire-legacy-5.10.2.jar sxc-jaxb-core-0.8.jar jcomma
+ nder-1.27.jar swizzle-stream-1.6.2.jar activemq-ra-5.10.2.jar vtd-xml
+ -2.13.jar openejb-core-4.7.4.jar json-simple-1.1.1.jar commons-loggin
+ g-1.1.1.jar activemq-jdbc-store-5.10.2.jar openwebbeans-el22-1.2.7.ja
+ r quartz-openejb-shade-2.2.1.jar geronimo-connector-3.1.1.jar
+Main-Class: BeanReaderMain
+

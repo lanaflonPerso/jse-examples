@@ -11,8 +11,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.org.core</groupId>
     <artifactId>beanio</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>../crackingthecoding</module>
+    </modules>
 
     <dependencies>
         <dependency>
