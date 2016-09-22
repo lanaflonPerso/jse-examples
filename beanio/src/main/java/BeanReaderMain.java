@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import constants.Constant;
 import org.beanio.BeanReader;
 import org.beanio.StreamFactory;
 
@@ -12,7 +13,7 @@ public class BeanReaderMain {
 
     public static void main(String...args) {
         BeanReaderMain br = new BeanReaderMain();
-        List<Object> records = br.beanReader("C:\\Mercury\\github\\jse-examples\\beanio\\src\\main\\resources\\data.csv", "model/pmRopInfo.xml");
+        List<Object> records = br.beanReader("C:\\Mercury\\github\\jse-examples\\beanio\\src\\main\\resources\\sample.csv", "model/pmRopInfo.xml");
         for(Object record :  records){
             System.out.println(record);
         }
@@ -24,7 +25,7 @@ public class BeanReaderMain {
         BeanReader beanReader = null;
         final List<Object> recordList = new ArrayList<>();
         try {
-            beanReader = factory.createReader("data", resource);
+            beanReader = factory.createReader(Constant.STREAM_MAPPING_NAME, resource);
             Object record;
             while ((record = beanReader.read()) != null) {
                 recordList.add(record);

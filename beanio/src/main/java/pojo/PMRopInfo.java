@@ -1,4 +1,4 @@
-package pojo;/*------------------------------------------------------------------------------
+/*------------------------------------------------------------------------------
  *******************************************************************************
  * COPYRIGHT Ericsson 2016
  *
@@ -9,102 +9,236 @@ package pojo;/*-----------------------------------------------------------------
  * program(s) have been supplied.
  *******************************************************************************
  *----------------------------------------------------------------------------*/
+
+package pojo;
+
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Data about every detected {@link PMRopInfo} is exposed in format of this POJO.
+ * Entity implementation class for Entity: PMRopInfo
  *
- * @author ehimnay
+ * @author  ehimnay
  */
+@Entity
+@Table(name = "pm_rop_info")
+@Access(value=AccessType.FIELD)
 public class PMRopInfo implements Serializable {
 
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @Column(name = "id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "node_name", nullable = false)
     private String nodeName;
+
+    @Column(name = "node_type", nullable = false)
     private String nodeType;
+
+    @Column(name = "data_type", nullable = false)
     private String dataType;
+
+    @Column(name = "file_type", nullable = false)
     private String fileType;
-    private String fileSize;
+
+    @Column(name = "file_size", nullable = false)
+    private Integer fileSize;
+
+    @Column(name = "file_location", nullable = false)
     private String fileLocation;
+
+    @Column(name = "file_creationtime_in_oss", nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
     private Date fileCreationTimeInOss;
+
+    @Column(name = "start_roptime_in_oss", nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
     private Date startRopTimeInOss;
+
+    @Column(name = "end_roptime_in_oss", nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
     private Date endRopTimeInOss;
 
-
-    public String getDataType() {
-        return dataType;
+    /**
+     * @return the id
+     */
+    public Long getId() {
+        return id;
     }
 
-    public void setDataType(String dataType) {
-        this.dataType = dataType;
-    }
-
-    public Date getEndRopTimeInOss() {
-        return endRopTimeInOss;
-    }
-
-    public void setEndRopTimeInOss(Date endRopTimeInOss) {
-        this.endRopTimeInOss = endRopTimeInOss;
-    }
-
-    public Date getFileCreationTimeInOss() {
-        return fileCreationTimeInOss;
-    }
-
-    public void setFileCreationTimeInOss(Date fileCreationTimeInOss) {
-        this.fileCreationTimeInOss = fileCreationTimeInOss;
-    }
-
-    public String getFileLocation() {
-        return fileLocation;
-    }
-
-    public void setFileLocation(String fileLocation) {
-        this.fileLocation = fileLocation;
-    }
-
-    public String getFileSize() {
-        return fileSize;
-    }
-
-    public void setFileSize(String fileSize) {
-        this.fileSize = fileSize;
-    }
-
-    public String getFileType() {
-        return fileType;
-    }
-
-    public void setFileType(String fileType) {
-        this.fileType = fileType;
-    }
-
+    /**
+     * @return the nodeName
+     */
     public String getNodeName() {
         return nodeName;
     }
 
-    public void setNodeName(String nodeName) {
+    /**
+     * @param nodeName
+     *            the nodeName to set
+     */
+    public void setNodeName(final String nodeName) {
         this.nodeName = nodeName;
     }
 
+    /**
+     * @return the nodeType
+     */
     public String getNodeType() {
         return nodeType;
     }
 
-    public void setNodeType(String nodeType) {
+    /**
+     * @param nodeType
+     *            the nodeType to set
+     */
+    public void setNodeType(final String nodeType) {
         this.nodeType = nodeType;
     }
 
+    /**
+     * @return the datatype
+     */
+    public String getDataType() {
+        return dataType;
+    }
+
+    /**
+     * @param datatype
+     *            the datatype to set
+     */
+    public void setDataType(final String datatype) {
+        this.dataType = datatype;
+    }
+
+    /**
+     * @return the fileType
+     */
+    public String getFileType() {
+        return fileType;
+    }
+
+    /**
+     * @param fileType
+     *            the fileType to set
+     */
+    public void setFileType(final String fileType) {
+        this.fileType = fileType;
+    }
+
+    /**
+     * @return the fileSize
+     */
+    public Integer getFileSize() {
+        return fileSize;
+    }
+
+    /**
+     * @param fileSize
+     *            the fileSize to set
+     */
+    public void setFileSize(final Integer fileSize) {
+        this.fileSize = fileSize;
+    }
+
+    /**
+     * @return the fileLocation
+     */
+    public String getFileLocation() {
+        return fileLocation;
+    }
+
+    /**
+     * @param fileLocation
+     *            the fileLocation to set
+     */
+    public void setFileLocation(final String fileLocation) {
+        this.fileLocation = fileLocation;
+    }
+
+    /**
+     * @return the fileCreationTimeInOss
+     */
+    public Date getFileCreationTimeInOss() {
+        return fileCreationTimeInOss;
+    }
+
+    /**
+     * @param fileCreationTimeInOss
+     *            the fileCreationTimeInOss to set
+     */
+    public void setFileCreationTimeInOss(final Date fileCreationTimeInOss) {
+        this.fileCreationTimeInOss = fileCreationTimeInOss;
+    }
+
+    /**
+     * @return the startRopTimeInOss
+     */
     public Date getStartRopTimeInOss() {
         return startRopTimeInOss;
     }
 
-    public void setStartRopTimeInOss(Date startRopTimeInOss) {
+    /**
+     * @param startRopTimeInOss
+     *            the startRopTimeInOss to set
+     */
+    public void setStartRopTimeInOss(final Date startRopTimeInOss) {
         this.startRopTimeInOss = startRopTimeInOss;
+    }
+
+    /**
+     * @return the endRopTimeInOss
+     */
+    public Date getEndRopTimeInOss() {
+        return endRopTimeInOss;
+    }
+
+    /**
+     * @param endRopTimeInOss
+     *            the endRopTimeInOss to set
+     */
+    public void setEndRopTimeInOss(final Date endRopTimeInOss) {
+        this.endRopTimeInOss = endRopTimeInOss;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((getId() == null) ? 0 : getId().hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(final Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final PMRopInfo other = (PMRopInfo) obj;
+        if (getId() == null) {
+            if (other.getId() != null) {
+                return false;
+            }
+        } else if (!getId().equals(other.getId())) {
+            return false;
+        }
+        return true;
     }
 
     @Override
     public String toString() {
-        return "pojo.PMRopInfo [nodeName=" + nodeName
+        return "PMRopInfo [id=" + id
+                + ", nodeName=" + nodeName
                 + ", nodeType=" + nodeType
                 + ", dataType=" + dataType
                 + ", fileType=" + fileType
