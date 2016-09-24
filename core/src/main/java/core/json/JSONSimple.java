@@ -20,7 +20,7 @@ public class JSONSimple {
     private static final String filePath = "C:/Mercury/TestWorkspace/Core/";
     private static final String fileName = "Temp.txt";
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         readJSON();
         toJSON();
     }

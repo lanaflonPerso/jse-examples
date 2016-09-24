@@ -19,7 +19,7 @@ public class Parenthesis {
         }
     };
 
-    public static void main(String... args) throws IOException {
+    public static void main(String...args) throws IOException {
         readFile(args[0]);
     }
 

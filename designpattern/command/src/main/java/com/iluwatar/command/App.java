@@ -19,7 +19,7 @@ package com.iluwatar.command;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Wizard wizard = new Wizard();
         Goblin goblin = new Goblin();
 

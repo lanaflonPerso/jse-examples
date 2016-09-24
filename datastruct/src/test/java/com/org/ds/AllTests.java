@@ -23,7 +23,7 @@ import com.org.ds.sorting.*;
         RainWaterTest.class, HeapSortTest.class, QuickSortTest.class, StupidSortTest.class, InsertionSortTest.class,
         SimpleHeapImplTest.class, })
 public class AllTests {
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         org.junit.runner.JUnitCore.main("AllTests");
     }
 }

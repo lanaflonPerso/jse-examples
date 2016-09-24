@@ -4,7 +4,7 @@ import static java.lang.Math.sqrt;
 
 public class VirtualExtensionMethod {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Formula formula = new Formula() {
             @Override
             public double calculate(int a) {

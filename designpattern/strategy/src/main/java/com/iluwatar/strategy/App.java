@@ -8,7 +8,7 @@ package com.iluwatar.strategy;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         System.out.println("Green dragon spotted ahead!");
         DragonSlayer dragonSlayer = new DragonSlayer(new MeleeStrategy());
         dragonSlayer.goToBattle();

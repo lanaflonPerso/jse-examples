@@ -15,7 +15,7 @@ package com.iluwatar.flyweight;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         AlchemistShop alchemistShop = new AlchemistShop();
         alchemistShop.enumerate();
     }

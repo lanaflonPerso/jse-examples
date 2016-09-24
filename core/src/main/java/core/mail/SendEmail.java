@@ -10,7 +10,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class SendEmail {
-    public static void main(String... args) {
+    public static void main(String...args) {
         final String RECIPIENT = "shruthi.sujyothi@daimler.com";
         final String SENDER = "robin.thomas@daimler.com";
         final String SMTP_HOSTNAME = "53.71.105.25";

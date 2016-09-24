@@ -51,7 +51,7 @@ public class SpellChecker {
         }
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         List<String> words = new ArrayList<String>();
         words.add("dog");
         words.add("cat");

@@ -5,7 +5,7 @@ public class ReHashing {
 
     private static String name = "Himansu";
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         int array[] = new int[ARRAY_SIZE];
         System.out.println(name.hashCode() & array.length - 1);
 

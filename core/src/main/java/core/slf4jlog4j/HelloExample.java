@@ -11,7 +11,7 @@ public class HelloExample {
     /**
      * @param args
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
         CtumFileCollectionConfig ctumFileCollectionConfig = new CtumFileCollectionConfig();
         slf4jLogger.info("Welcome to the HelloWorld example of Log4j using SLF4J");
         slf4jLogger.info("HeloWorld {}", ctumFileCollectionConfig);

@@ -11,7 +11,7 @@ package com.iluwatar.visitor;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         Commander commander = new Commander(new Sergeant(new Soldier(), new Soldier(), new Soldier()),
                 new Sergeant(new Soldier(), new Soldier(), new Soldier()));

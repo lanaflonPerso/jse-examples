@@ -2,7 +2,7 @@ package core.designpattern.structural.adapter;
 
 public class AdapterPatternMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         testClassAdapter();
         testObjectAdapter();

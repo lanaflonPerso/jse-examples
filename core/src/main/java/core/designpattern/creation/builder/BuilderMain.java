@@ -2,7 +2,7 @@ package core.designpattern.creation.builder;
 
 public class BuilderMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // Using builder to get the object in HashMapCustom single line of code and
         // without any inconsistent state or arguments management issues
         Computer comp = new Computer.ComputerBuilder("500 GB", "2 GB").setBluetoothEnabled(true)

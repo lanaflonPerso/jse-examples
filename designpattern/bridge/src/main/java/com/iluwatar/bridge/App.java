@@ -8,7 +8,7 @@ package com.iluwatar.bridge;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         BlindingMagicWeapon blindingMagicWeapon = new BlindingMagicWeapon(new Excalibur());
         blindingMagicWeapon.wield();
         blindingMagicWeapon.blind();

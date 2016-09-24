@@ -9,7 +9,7 @@ public class SFTP {
     public SFTP() {
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         final String SFTPHOST = "159.107.165.174";
         final String SFTPUSER = "himansu";
         final String SFTPPASS = "himansu";

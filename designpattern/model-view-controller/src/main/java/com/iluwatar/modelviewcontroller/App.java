@@ -17,7 +17,7 @@ package com.iluwatar.modelviewcontroller;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // create model, view and controller
         GiantModel giant = new GiantModel(Health.HEALTHY, Fatigue.ALERT, Nourishment.SATURATED);
         GiantView view = new GiantView();

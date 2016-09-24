@@ -4,7 +4,7 @@ import java.io.*;
 
 public class AutomaticResourceManagement {
 
-    public static void main(String... args) throws FileNotFoundException {
+    public static void main(String...args) throws FileNotFoundException {
         Reader reader = new FileReader("c:/temp.txt") {
             @Override
             public void close() {

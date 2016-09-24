@@ -16,7 +16,7 @@ public class BiDirectionalMap {
     final static Map<String, String> gshCommands = new LinkedHashMap<>();
     final static List<String> rollBackGshCommands = new ArrayList<>();
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         gshCommands.put("MODIFY_NODE_FUNCTION", "cmd 1");
         gshCommands.put("CREATE_IP_SERVICE", "cmd 2");

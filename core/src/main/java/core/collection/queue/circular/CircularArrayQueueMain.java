@@ -2,7 +2,7 @@ package core.collection.queue.circular;
 
 public class CircularArrayQueueMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         CircularArrayQueue queue = new CircularArrayQueue();
 
         queue.enqueue("A");

@@ -5,7 +5,7 @@ public class AtomicThreadMain {
     /**
      * @param args
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         AtomicThread atomicThread = new AtomicThread();
         Thread t1 = new Thread(atomicThread, "t1");

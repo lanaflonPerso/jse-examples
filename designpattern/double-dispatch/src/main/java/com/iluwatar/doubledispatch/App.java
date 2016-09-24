@@ -23,7 +23,7 @@ import java.util.List;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // initialize game objects and print their status
         List<GameObject> objects = new ArrayList<>();
         objects.add(new FlamingAsteroid(0, 0, 5, 5));

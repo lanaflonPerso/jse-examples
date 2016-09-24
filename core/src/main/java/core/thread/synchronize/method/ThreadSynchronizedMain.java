@@ -2,7 +2,7 @@ package core.thread.synchronize.method;
 
 public class ThreadSynchronizedMain {
 
-    public static void main(String... args) throws InterruptedException {
+    public static void main(String...args) throws InterruptedException {
         Message message = new Message("Himansu Nayak");
         SynchronizedThread threadSynchronized = new SynchronizedThread(message);
         Thread t1 = new Thread(threadSynchronized, "Thread Alpha");

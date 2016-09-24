@@ -19,7 +19,7 @@ package com.iluwatar.objectpool;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         OliphauntPool pool = new OliphauntPool();
         System.out.println(pool);
         Oliphaunt oliphaunt1 = pool.checkOut();

@@ -5,7 +5,7 @@ public class NonAtomicMain {
     /**
      * @param args
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
         NonAtomicThread pt = new NonAtomicThread();
         Thread t1 = new Thread(pt, "t1");
         t1.start();

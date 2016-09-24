@@ -14,7 +14,7 @@ import com.iluwatar.builder.Hero.HeroBuilder;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         Hero mage = new HeroBuilder(Profession.MAGE, "Riobard").withHairColor(HairColor.BLACK).withWeapon(Weapon.DAGGER)
                 .build();

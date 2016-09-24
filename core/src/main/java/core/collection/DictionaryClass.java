@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class DictionaryClass {
 
-    public static void main(String... args) throws IOException {
+    public static void main(String...args) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(new File("input.txt")));
         String inputLine = null;
         Map<String, Integer> dictionary = new HashMap<String, Integer>();

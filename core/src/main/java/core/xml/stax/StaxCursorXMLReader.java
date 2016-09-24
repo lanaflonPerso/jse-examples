@@ -20,7 +20,7 @@ import core.xml.dom.Employee;
  */
 public class StaxCursorXMLReader {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         String fileName = "employee.xml";
         List<Employee> empList = parseXML(fileName);
         for (Employee emp : empList) {

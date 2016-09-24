@@ -5,7 +5,7 @@ public class StrategyMain {
     /**
      * @param args
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
         PaymentContext cart = new PaymentContext();
 
         Item item1 = new Item("1234", 10);

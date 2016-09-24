@@ -10,7 +10,7 @@ package com.iluwatar.lazyloading;
  *
  */
 public class App {
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         // Simple lazy loader - not thread safe
         HolderNaive holderNaive = new HolderNaive();

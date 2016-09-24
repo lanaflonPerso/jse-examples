@@ -9,7 +9,7 @@ package com.iluwatar.chain;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         OrcKing king = new OrcKing();
         king.makeRequest(new Request(RequestType.DEFEND_CASTLE, "defend castle"));

@@ -52,7 +52,7 @@ public class LongestCommonSubsequence {
         }
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         System.out.println(lcs("ABCDBB", "AEFBABB"));
         System.out.println(lcs("ABCDBB", "EAGBFAAB"));
     }

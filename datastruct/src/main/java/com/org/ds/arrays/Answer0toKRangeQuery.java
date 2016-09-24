@@ -36,7 +36,7 @@ public class Answer0toKRangeQuery {
         }
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
 
     }
 

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MixModeComparatorMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         List<String> alphaNumericList = new ArrayList<String>() {
             {
                 add("LTE07ERBS0000A");

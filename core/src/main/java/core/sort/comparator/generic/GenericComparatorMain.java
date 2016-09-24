@@ -9,7 +9,7 @@ import java.util.Locale;
 
 public class GenericComparatorMain {
 
-    public static void main(String... args) throws ParseException {
+    public static void main(String...args) throws ParseException {
         // test1();
         test2();
     }

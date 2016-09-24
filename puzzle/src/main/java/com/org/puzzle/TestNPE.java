@@ -1,7 +1,7 @@
 package com.org.puzzle;
 
 public class TestNPE {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Account object = new Account(1);
         System.out.println(object instanceof Account);
 

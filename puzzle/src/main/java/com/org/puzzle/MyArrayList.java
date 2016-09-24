@@ -9,7 +9,7 @@ public class MyArrayList {
     private int size = 0;
     private int[] array = new int[MAX_SIZE];
 
-    public static void main(String... args) throws Exception {
+    public static void main(String...args) throws Exception {
 
         // create HashMapCustom list
         MyArrayList list = new MyArrayList();

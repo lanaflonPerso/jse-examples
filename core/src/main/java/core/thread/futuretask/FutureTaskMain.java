@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 
 public class FutureTaskMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         ThreadCallable callable1 = new ThreadCallable(1000);
         ThreadCallable callable2 = new ThreadCallable(2000);

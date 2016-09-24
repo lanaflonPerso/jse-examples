@@ -10,7 +10,7 @@ package com.iluwatar.nullobject;
  *
  */
 public class App {
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         Node root = new NodeImpl("1",
                 new NodeImpl("11", new NodeImpl("111", NullNode.getInstance(), NullNode.getInstance()),

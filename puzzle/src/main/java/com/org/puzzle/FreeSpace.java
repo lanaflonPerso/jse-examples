@@ -3,7 +3,7 @@ package com.org.puzzle;
 import java.io.File;
 
 public class FreeSpace {
-    public static void main(String... args) {
+    public static void main(String...args) {
         File file = new File("c:");
         long totalSpace = file.getTotalSpace(); // total disk space in bytes.
         long usableSpace = file.getUsableSpace(); // /unallocated / free disk

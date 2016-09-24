@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class RegularExpression {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Pattern pattern = Pattern.compile("MAN", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher("Himansu Nayak");
         while (matcher.find()) {

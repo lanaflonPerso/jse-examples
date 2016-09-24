@@ -139,7 +139,7 @@ public class SFTPClient {
         this.sftpServer = ipAddress;
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         SFTPClient s = new SFTPClient("10.32.227.104");
         s.listFiles("/var/tmp/RemoteFileDir");
     }

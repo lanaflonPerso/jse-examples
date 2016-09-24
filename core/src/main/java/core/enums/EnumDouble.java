@@ -18,7 +18,7 @@ public enum EnumDouble {
         this.radius = radius;
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         if (args.length != 1) {
             System.err.println("Usage: java Planet <earth_weight>");
             System.exit(-1);

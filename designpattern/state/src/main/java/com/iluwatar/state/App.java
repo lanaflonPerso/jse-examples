@@ -10,7 +10,7 @@ package com.iluwatar.state;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         Mammoth mammoth = new Mammoth();
         mammoth.observe();

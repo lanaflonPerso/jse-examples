@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         KingJoffrey kingJoffrey = new KingJoffrey();
         KingsHand kingsHand = new KingsHand(kingJoffrey);

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class _3SUM {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         int values[] = { 1, 7, 2, 3, 11, 4 };
         System.out.println(sumsTo(values));
     }

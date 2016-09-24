@@ -21,7 +21,7 @@ import core.xml.dom.Employee;
  */
 public class SAXParserMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();

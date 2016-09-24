@@ -7,7 +7,7 @@ package com.iluwatar.proxy;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         WizardTowerProxy tower = new WizardTowerProxy();
         tower.enter(new Wizard("Red wizard"));

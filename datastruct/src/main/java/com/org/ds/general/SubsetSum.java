@@ -45,7 +45,7 @@ public class SubsetSum {
         return false;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         int values[] = { 10, 7, 5, 18, 12, 20, 15 };
         System.out.println(Arrays.toString(values));
         System.out.println(findSubsetSum(values, 47));

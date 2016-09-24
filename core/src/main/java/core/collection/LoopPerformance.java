@@ -16,7 +16,7 @@ public class LoopPerformance {
     }
 
     @SuppressWarnings("unused")
-    public static void main(String... args) {
+    public static void main(String...args) {
         int size = list.size();
 
         // Type 4

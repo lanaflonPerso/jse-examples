@@ -14,7 +14,7 @@ import com.ximpleware.VTDNav;
  * http://vtd-xml.sourceforge.net/
  */
 public class VTD {
-    public static void main(String... args) {
+    public static void main(String...args) {
         try {
             File f = new File("employee.xml");
             FileInputStream fis = new FileInputStream(f);

@@ -47,7 +47,7 @@ class Employee implements Serializable {
 
 public class SerializationMain {
 
-    public static void main(String... args) throws IOException, ClassNotFoundException {
+    public static void main(String...args) throws IOException, ClassNotFoundException {
         Employee person = new Employee();
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("testfile"));
         objectOutputStream.writeObject(person);

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.IdentityHashMap;
 
 public class FileTest {
-    public static void main(String... args) {
+    public static void main(String...args) {
         try {
             IdentityHashMap<String, String> map = new IdentityHashMap<String, String>();
             map.put("Himansu", "Orissa");

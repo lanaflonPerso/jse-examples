@@ -1,7 +1,7 @@
 package core.collection.custom.hashmap;
 
 public class HashMapCustomMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         HashMapCustom hashMap = new HashMapCustom();
 
         hashMap.put("Himansu", "Nayak");

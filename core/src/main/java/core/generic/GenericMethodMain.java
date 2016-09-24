@@ -7,7 +7,7 @@ import java.util.List;
  * Created by ehimnay on 01/12/2015.
  */
 public class GenericMethodMain {
-    public static void main(String... args) throws InstantiationException, IllegalAccessException {
+    public static void main(String...args) throws InstantiationException, IllegalAccessException {
 
         String string = genericMethod(String.class);
 

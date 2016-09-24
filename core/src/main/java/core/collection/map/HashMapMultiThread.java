@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class HashMapMultiThread {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Map<String, String> map = new ConcurrentHashMap<>();
         map.put("DELTA", "DELTA");
         map.put("OMEGA", "OMEGA");

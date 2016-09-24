@@ -15,7 +15,7 @@ public class HashMapIterationPerformance {
         }
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         // First way using entrySet in for-each loop
         long startTime = Calendar.getInstance().getTimeInMillis();

@@ -14,7 +14,7 @@ import core.jpa.entity.Product;
 
 public class SurveyTest {
     @SuppressWarnings("unchecked")
-    public static void main(String... args) {
+    public static void main(String...args) {
         // Find out how many products each customer has
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("testjpa");
 

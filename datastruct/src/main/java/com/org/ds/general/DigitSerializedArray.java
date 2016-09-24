@@ -43,7 +43,7 @@ public class DigitSerializedArray {
         return corneredNumber % 10;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         String sequence = generateSequence(100000);
         for (int index = 0; index < sequence.length(); index++) {
             int expected = sequence.charAt(index) - '0';

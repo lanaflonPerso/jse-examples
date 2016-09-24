@@ -3,7 +3,7 @@ package core.designpattern.structural.facade;
 import java.sql.Connection;
 
 public class FacadePatternMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         String tableName = "Employee";
 
         // generating MySql HTML report and Oracle PDF report without using

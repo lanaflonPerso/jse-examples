@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CopyOfMixModeComparatorBMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         List<String> alphaNumericList = new ArrayList<String>() {
             {
                 add("A11");

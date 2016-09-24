@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CountBinarySubsequences {
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         CountBinarySubsequences obj = new CountBinarySubsequences();
 
         System.out.println("\n================\n");

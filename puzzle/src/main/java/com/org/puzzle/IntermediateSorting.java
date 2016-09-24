@@ -1,7 +1,7 @@
 package com.org.puzzle;
 
 public class IntermediateSorting {
-    public static void main(String... args) {
+    public static void main(String...args) {
         int[] A = { 1, 2, 3, 4, 7, 8, 9, 10 };
         final int noOfPass = solution(A);
         System.out.println("No of pass : " + noOfPass);

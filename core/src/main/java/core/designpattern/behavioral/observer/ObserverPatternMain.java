@@ -2,7 +2,7 @@ package core.designpattern.behavioral.observer;
 
 public class ObserverPatternMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // create subject
         SubjectTopic subjectTopic = new SubjectTopic();
 

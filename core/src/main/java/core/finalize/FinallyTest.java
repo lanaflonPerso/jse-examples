@@ -9,7 +9,7 @@
 package core.finalize;
 
 public class FinallyTest {
-    public static void main(String... args) {
+    public static void main(String...args) {
         FinallyTest finallyTest = new FinallyTest();
         try {
             System.out.println("Inside InterruptThreadMain");

@@ -21,7 +21,7 @@ package com.iluwatar.resourceacquisitionisinitialization;
  */
 public class App {
 
-    public static void main(String... args) throws Exception {
+    public static void main(String...args) throws Exception {
 
         try (SlidingDoor slidingDoor = new SlidingDoor()) {
             System.out.println("Walking in.");

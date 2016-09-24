@@ -28,7 +28,7 @@ class SingletonEagerInitialization {
         return singleton;
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         getSingletonInstance().print();
     }
 
@@ -52,7 +52,7 @@ class SingletonLazyInitialization {
         return singleton;
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         getSingletonInstance().print();
     }
 
@@ -76,7 +76,7 @@ class SingletonDoubleCheck {
         return singleton;
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         getSingletonInstance().print();
     }
 

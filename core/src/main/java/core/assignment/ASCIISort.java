@@ -12,7 +12,7 @@ public class ASCIISort {
      * @param args
      * @throws UnsupportedEncodingException
      */
-    public static void main(String... args) throws UnsupportedEncodingException {
+    public static void main(String...args) throws UnsupportedEncodingException {
         char stringChar[] = { 'Z', 'Y', 'X', 'W', 'V', 'U' };
         String string = new String(stringChar);
         byte[] bytes = string.getBytes(StandardCharsets.US_ASCII);

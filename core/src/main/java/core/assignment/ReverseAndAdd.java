@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.math.BigInteger;
 
 public class ReverseAndAdd {
-    public static void main(String... args) throws IOException {
+    public static void main(String...args) throws IOException {
         readFile(args[0]);
     }
 

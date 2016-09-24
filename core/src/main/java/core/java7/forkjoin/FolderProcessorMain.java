@@ -5,7 +5,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;
 
 public class FolderProcessorMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         //Create ForkJoinPool using the default constructor.
         ForkJoinPool pool = new ForkJoinPool();
         //Create three FolderProcessor tasks. Initialize each one with a different folder path.

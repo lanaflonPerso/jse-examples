@@ -8,7 +8,7 @@ package com.iluwatar.composite;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         System.out.println("Message from the orcs: ");
 
         LetterComposite orcMessage = new Messenger().messageFromOrcs();

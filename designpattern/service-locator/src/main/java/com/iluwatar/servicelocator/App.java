@@ -6,7 +6,7 @@ package com.iluwatar.servicelocator;
  * @author saifasif
  */
 public class App {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Service service = ServiceLocator.getService("jndi/serviceA");
         service.execute();
         service = ServiceLocator.getService("jndi/serviceB");

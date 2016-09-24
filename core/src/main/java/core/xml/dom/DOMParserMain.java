@@ -24,7 +24,7 @@ import org.xml.sax.SAXException;
  */
 public class DOMParserMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         String filePath = "employee.xml";
         File xmlFile = new File(filePath);
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();

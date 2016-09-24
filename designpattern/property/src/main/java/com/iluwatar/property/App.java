@@ -11,7 +11,7 @@ import com.iluwatar.property.Character.Type;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         /* set up */
         Prototype charProto = new Character();
         charProto.set(Stats.STRENGTH, 10);

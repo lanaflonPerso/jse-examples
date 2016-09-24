@@ -4,7 +4,7 @@ import java.io.*;
 
 public class WriteFile {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         File file = new File("C:/Mercury/TestWorkspace/Core/Temp.txt");
         /*
          * writeFileFileWriter(file); writeFileFileOutputStream(file);

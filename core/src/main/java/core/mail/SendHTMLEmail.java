@@ -10,7 +10,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class SendHTMLEmail {
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         final String RECIPIENT = "himansu.nayak@daimler.com";
         final String SENDER = "Bill.Gates@microsoft.com";

@@ -12,7 +12,7 @@ public class App {
     static Servant jenkins = new Servant("Jenkins");
     static Servant travis = new Servant("Travis");
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         scenario(jenkins, 1);
         scenario(travis, 0);
     }

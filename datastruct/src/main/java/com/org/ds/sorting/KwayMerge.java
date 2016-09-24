@@ -77,7 +77,7 @@ public class KwayMerge {
         return totalLength;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         Integer[][] a = { { 1, 2, 3 }, { 4, 4 }, { 4, 7, 9 } };
         Comparator<Integer> comparator = new Comparator<Integer>() {
             @Override

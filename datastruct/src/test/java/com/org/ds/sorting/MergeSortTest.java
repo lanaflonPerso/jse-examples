@@ -22,7 +22,7 @@ public class MergeSortTest {
         }
     };
 
-    public static void main(String args[]) {
+    public static void main(String...args) {
         org.junit.runner.JUnitCore.main("sorting.MergeSortTest");
     }
 

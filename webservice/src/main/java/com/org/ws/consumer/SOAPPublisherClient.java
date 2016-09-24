@@ -12,7 +12,7 @@ import com.org.ws.entity.Person;
 
 public class SOAPPublisherClient {
 
-    public static void main(String... args) throws MalformedURLException {
+    public static void main(String...args) throws MalformedURLException {
         URL wsdlURL = new URL("http://localhost:8888/ws/person?wsdl");
         //check above URL in browser, you should see WSDL file
 

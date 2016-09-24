@@ -2,7 +2,7 @@ package core.designpattern.behavioral.memento;
 
 public class FileWriterClient {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         FileWriterCareTaker caretaker = new FileWriterCareTaker();
 

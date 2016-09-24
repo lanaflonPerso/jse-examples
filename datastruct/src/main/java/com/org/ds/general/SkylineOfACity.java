@@ -90,7 +90,7 @@ public class SkylineOfACity {
         return merged;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         ArrayList<Building> buildings = new ArrayList<Building>();
         buildings.add(new Building(1, 5, 10));
         buildings.add(new Building(3, 7, 5));

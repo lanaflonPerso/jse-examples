@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 
 public class CallableThreadMain {
 
-    public static void main(String args[]) {
+    public static void main(String...args) {
         ExecutorService executor = Executors.newFixedThreadPool(10);
         Callable<String> callable = new CallableUserThread();
 

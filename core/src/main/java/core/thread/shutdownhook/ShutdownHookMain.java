@@ -1,7 +1,7 @@
 package core.thread.shutdownhook;
 
 public class ShutdownHookMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         ShutdownHook shutdownHook = new ShutdownHook();
         shutdownHook.attachShutDownHook();
 

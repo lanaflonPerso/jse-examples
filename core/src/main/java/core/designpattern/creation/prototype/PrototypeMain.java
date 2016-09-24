@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PrototypeMain {
 
-    public static void main(String... args) throws CloneNotSupportedException {
+    public static void main(String...args) throws CloneNotSupportedException {
         Employees emps = new Employees();
         emps.loadData();
 

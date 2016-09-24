@@ -6,7 +6,7 @@ import java.util.TimerTask;
 
 public class TimerThread extends TimerTask {
 
-    public static void main(String args[]) {
+    public static void main(String...args) {
         TimerTask timerTask = new TimerThread();
         Timer timer = new Timer(true);
         timer.scheduleAtFixedRate(timerTask, 0, 10 * 1000);

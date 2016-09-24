@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
  * Created by ehimnay on 02/06/2016.
  */
 public class IPValidaton {
-    public static void main(String... args) {
+    public static void main(String...args) {
         System.out.println(isIPV4Address("127.0.0.1"));
         System.out.println(checkLoopBackIP("0:0:0:0:0:ffff:7f00:1"));
     }

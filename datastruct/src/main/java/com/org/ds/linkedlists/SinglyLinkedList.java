@@ -14,7 +14,7 @@ public class SinglyLinkedList<T> implements List<T> {
     private Node<T> tail;
     private int size;
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         SinglyLinkedList<Integer> list = new SinglyLinkedList<Integer>();
         list.addLast(5);
         list.addLast(2);

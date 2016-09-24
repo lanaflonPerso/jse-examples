@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapPuzzle {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Friend friend1 = new Friend("Tom", 24);
         Friend friend2 = new Friend("Dick", 25);
         Friend friend3 = new Friend("Harry", 24);

@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadPoolExecutorRejectionExecutionMain {
 
-    public static void main(String args[]) throws InterruptedException {
+    public static void main(String...args) throws InterruptedException {
         // RejectedExecutionHandler implementation
         RejectedExecutionHandlerImpl rejectionHandler = new RejectedExecutionHandlerImpl();
 

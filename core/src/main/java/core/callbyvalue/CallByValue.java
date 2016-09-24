@@ -5,7 +5,7 @@ package core.callbyvalue;
  */
 public class CallByValue {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Dog dog = new Dog("Max");
 
         System.out.println(dog.getName());

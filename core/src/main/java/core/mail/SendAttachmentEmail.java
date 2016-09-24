@@ -12,7 +12,7 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 public class SendAttachmentEmail {
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         final String RECIPIENT = "himansu.nayak@daimler.com";
         final String SENDER = "Bill.Gates@microsoft.com";

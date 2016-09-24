@@ -3,7 +3,7 @@ package core.tricks;
 import java.util.Arrays;
 
 public class ArrayBox {
-    public static void main(String... args) {
+    public static void main(String...args) {
         int[] A = { 1111, 3212, 13, 65433334, 65433211, 1234321 };
         drawRow(A, 2);
         solution(A, 2);

@@ -8,7 +8,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 public class ClassLoaderTypeTest {
-    public static void main(String... args) throws Exception {
+    public static void main(String...args) throws Exception {
         urlClassLoader();
         systemClassLoader();
     }

@@ -65,7 +65,7 @@ public class NextPalindromeNumber {
         return num;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         String number = "0";
         System.out.printf("%s => %s\n", number, nextPalindromeNumber(number));
 

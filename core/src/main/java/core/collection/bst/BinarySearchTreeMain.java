@@ -2,7 +2,7 @@ package core.collection.bst;
 
 public class BinarySearchTreeMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         BinarySearchTree bst = new BinarySearchTree();
 
         // initailize root node

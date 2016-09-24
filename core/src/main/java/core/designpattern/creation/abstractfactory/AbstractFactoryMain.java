@@ -2,7 +2,7 @@ package core.designpattern.creation.abstractfactory;
 
 public class AbstractFactoryMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         testAbstractFactory();
     }
 

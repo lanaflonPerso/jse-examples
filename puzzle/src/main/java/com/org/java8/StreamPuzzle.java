@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamPuzzle {
-    public static void main(String... args) {
+    public static void main(String...args) {
         System.out.println("StreamPuzzle.streamList");
         streamList();
         System.out.println("StreamPuzzle.streamSubList");

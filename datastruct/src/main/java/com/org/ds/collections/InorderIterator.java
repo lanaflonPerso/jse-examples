@@ -26,7 +26,7 @@ public class InorderIterator<T> implements Iterator<T> {
     }
 
     // Some quick testing below.
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         TreeNode<Integer> ll = new TreeNode<Integer>(1);
         TreeNode<Integer> l = new TreeNode<Integer>(2);
 

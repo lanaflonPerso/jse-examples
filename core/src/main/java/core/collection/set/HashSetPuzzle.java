@@ -3,7 +3,7 @@ package core.collection.set;
 import java.util.HashSet;
 
 public class HashSetPuzzle {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Employer employee = new Employer("rajeev", 24);
         Employer employee1 = new Employer("rajeev", 25);
         Employer employee2 = new Employer("rajeev", 24);

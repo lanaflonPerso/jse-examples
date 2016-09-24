@@ -7,7 +7,7 @@ import javax.naming.Context;
 import javax.naming.NamingException;
 
 public class Client {
-    public static void main(String args[]) throws NamingException {
+    public static void main(String...args) throws NamingException {
         EJBContainer container = null;
         try {
             final Properties props = new Properties();

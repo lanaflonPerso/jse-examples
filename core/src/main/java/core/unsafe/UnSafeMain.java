@@ -10,7 +10,7 @@ public class UnSafeMain {
     static final Unsafe unsafe = getUnsafe();
     static final boolean is64bit = true; // auto detect if possible.
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Double[] ascending = new Double[16];
         for (int i = 0; i < ascending.length; i++)
             ascending[i] = (double) i;

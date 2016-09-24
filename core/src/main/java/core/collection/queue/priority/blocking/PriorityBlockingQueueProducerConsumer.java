@@ -6,7 +6,7 @@ import java.util.concurrent.PriorityBlockingQueue;
  * http://java-latte.blogspot.de/2013/10/priorityblockingqueue-in-java.html
  */
 public class PriorityBlockingQueueProducerConsumer {
-    public static void main(String... args) {
+    public static void main(String...args) {
         final PriorityBlockingQueue<Integer> pbq = new PriorityBlockingQueue<Integer>(101,
                 ComparatorPriority.sortByPriority);
         Producer producer = new Producer(pbq);

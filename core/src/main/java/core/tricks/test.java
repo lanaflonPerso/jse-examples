@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by ehimnay on 20/07/2016.
  */
 public class test {
-    public static void main(String... args) {
+    public static void main(String...args) {
         int[] A = { 1, 2, 3, 4, 5, 6 };
         solution(A, 2);
     }

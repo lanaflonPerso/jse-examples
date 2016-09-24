@@ -10,7 +10,7 @@ package com.iluwatar.decorator;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         // simple troll
         System.out.println("A simple looking troll approaches.");

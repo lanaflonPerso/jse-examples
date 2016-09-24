@@ -1,7 +1,7 @@
 package core.thread.daemon;
 
 public class DaemonThreadMain {
-    public static void main(String... args) throws InterruptedException {
+    public static void main(String...args) throws InterruptedException {
         daemonThread();
         nonDaemonThread();
         Thread.sleep(30000);

@@ -17,7 +17,7 @@ package com.iluwatar.privateclassdata;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // stew is mutable
         Stew stew = new Stew(1, 2, 3, 4);
         stew.mix();

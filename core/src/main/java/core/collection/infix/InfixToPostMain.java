@@ -23,7 +23,7 @@ public class InfixToPostMain {
         stack = new StackCustom(expression.length());
     }
 
-    public static void main(String... args) throws IOException {
+    public static void main(String...args) throws IOException {
         String input = "1+2*(4/5)-7+3/6";
         String output;
         InfixToPostMain theTrans = new InfixToPostMain(input);

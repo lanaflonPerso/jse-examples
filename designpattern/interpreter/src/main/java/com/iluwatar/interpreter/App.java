@@ -16,7 +16,7 @@ public class App {
      * comes after the operands
      * 
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
         String tokenString = "4 3 2 - 1 + *";
         Stack<Expression> stack = new Stack<>();
 

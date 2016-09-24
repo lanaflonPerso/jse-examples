@@ -2,7 +2,7 @@ package core.thread.waitnotifynotifyall;
 
 public class WaitNotifyMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Message message = new Message("process it");
         WaitThread waitThread = new WaitThread(message);
         new Thread(waitThread, "firstThread").start();

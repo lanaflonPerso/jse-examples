@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class NavigableMapMain {
 
-    public static void main(String args[]) {
+    public static void main(String...args) {
 
         // NavigableMap extends SortedMap to provide useful navigation methods
         NavigableMap<String, String> navigableMap = new TreeMap<String, String>();

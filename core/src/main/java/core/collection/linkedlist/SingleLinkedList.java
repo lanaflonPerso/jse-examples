@@ -3,7 +3,7 @@ package core.collection.linkedlist;
 import java.util.Scanner;
 
 class LinkedList {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Scanner in = new Scanner(System.in);
         int data, ch, size = 0;
         // 2 pointer to keep track of first and last node.

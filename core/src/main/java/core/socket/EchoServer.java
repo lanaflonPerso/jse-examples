@@ -11,7 +11,7 @@ import java.net.Socket;
  * 2. Crea
  */
 public class EchoServer {
-    public static void main(String args[]) {
+    public static void main(String...args) {
         ServerSocket echoServer = null;
         try {
             echoServer = new ServerSocket(9999);

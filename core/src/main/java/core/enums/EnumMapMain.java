@@ -9,7 +9,7 @@ import java.util.Iterator;
 
 public class EnumMapMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         EnumMap<DIRECTION, String> enumMap = new EnumMap<DIRECTION, String>(DIRECTION.class);
         enumMap.put(DIRECTION.EAST, "East");
         enumMap.put(DIRECTION.WEST, "West");

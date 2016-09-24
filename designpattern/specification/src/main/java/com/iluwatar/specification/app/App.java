@@ -31,7 +31,7 @@ import com.iluwatar.specification.selector.MovementSelector;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // initialize creatures list
         List<Creature> creatures = Arrays.asList(new Goblin(), new Octopus(), new Dragon(), new Shark(), new Troll(),
                 new KillerBee());

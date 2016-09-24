@@ -17,7 +17,7 @@ import com.org.abstractfactory.interfaces.KingdomFactory;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         createKingdom(new ElfKingdomFactory());
         createKingdom(new OrcKingdomFactory());
     }

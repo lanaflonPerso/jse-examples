@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 
 public class RandomAccessFileMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         File file = new File("C:/firmware/postfix.txt");
         readFileRandomly(file);
     }

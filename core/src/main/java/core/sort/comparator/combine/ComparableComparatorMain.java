@@ -3,7 +3,7 @@ package core.sort.comparator.combine;
 import java.util.Arrays;
 
 public class ComparableComparatorMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         ComparableComparator cc2[] = new ComparableComparator[6];
         cc2[0] = new ComparableComparator(5, "A");
         cc2[1] = new ComparableComparator(1, "N");

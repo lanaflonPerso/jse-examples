@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class HashSetMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Person obj3 = new Person("abc");
         Person obj1 = new Person("bcd");
         Person obj2 = new Person("cde");

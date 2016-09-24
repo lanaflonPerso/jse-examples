@@ -8,7 +8,7 @@ public class HelloExample {
 
     final static Logger logger = Logger.getLogger(CtumFileCollectionConfig.class);
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         CtumFileCollectionConfig ctumFileCollectionConfig = new CtumFileCollectionConfig();
         if (logger.isDebugEnabled()) {

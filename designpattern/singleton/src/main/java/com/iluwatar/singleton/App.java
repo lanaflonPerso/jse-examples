@@ -16,7 +16,7 @@ package com.iluwatar.singleton;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         // eagerly initialized singleton
         IvoryTower ivoryTower1 = IvoryTower.getInstance();

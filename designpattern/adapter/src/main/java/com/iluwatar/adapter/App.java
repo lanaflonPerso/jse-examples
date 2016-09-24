@@ -12,7 +12,7 @@ package com.iluwatar.adapter;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Engineer manager = new GnomeEngineeringManager();
         manager.operateDevice();
     }

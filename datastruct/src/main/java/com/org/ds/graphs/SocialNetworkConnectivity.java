@@ -96,7 +96,7 @@ class WeightedUnionFind {
 }
 
 public class SocialNetworkConnectivity {
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         WeightedUnionFind w = new WeightedUnionFind(6);
 
         int foo = 0;

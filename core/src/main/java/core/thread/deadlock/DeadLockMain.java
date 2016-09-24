@@ -2,7 +2,7 @@ package core.thread.deadlock;
 
 public class DeadLockMain {
 
-    public static void main(String... args) throws InterruptedException {
+    public static void main(String...args) throws InterruptedException {
         Object obj1 = new Object();
         Object obj2 = new Object();
         Object obj3 = new Object();

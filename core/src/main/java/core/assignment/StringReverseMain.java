@@ -7,7 +7,7 @@ public class StringReverseMain {
      */
     private static StringBuffer recursive = new StringBuffer();
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         final String NAME = "Himnansu Nayak";
         reverseString(NAME);
         revereStringRecursive(NAME);

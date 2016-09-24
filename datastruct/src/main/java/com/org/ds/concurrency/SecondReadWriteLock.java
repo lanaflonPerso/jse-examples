@@ -36,7 +36,7 @@ public class SecondReadWriteLock implements ReadWriteLock {
     private volatile Long writerId = null;
 
     // Simple tests.
-    public static void main(String... argsargs) throws InterruptedException {
+    public static void main(String...argsargs) throws InterruptedException {
         final SecondReadWriteLock rwLock = new SecondReadWriteLock();
 
         Executor exec = Executors.newFixedThreadPool(10);

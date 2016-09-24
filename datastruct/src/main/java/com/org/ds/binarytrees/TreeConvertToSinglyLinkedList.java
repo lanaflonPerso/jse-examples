@@ -43,7 +43,7 @@ public class TreeConvertToSinglyLinkedList {
         return toReturn;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         TreeNode<Integer> rootLeftLeft = new TreeNode<Integer>(3);
         TreeNode<Integer> rootLeftRight = new TreeNode<Integer>(5);
 

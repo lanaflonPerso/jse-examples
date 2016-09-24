@@ -8,7 +8,7 @@ public class Null {
 
     }
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         ((Null) null).greet();
     }
 

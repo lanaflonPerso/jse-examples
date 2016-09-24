@@ -47,7 +47,7 @@ class Person implements Externalizable {
 
 public class ExternalizationMain {
 
-    public static void main(String... args) throws IOException, ClassNotFoundException {
+    public static void main(String...args) throws IOException, ClassNotFoundException {
         Person person = new Person();
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("testfile"));
         objectOutputStream.writeObject(person);

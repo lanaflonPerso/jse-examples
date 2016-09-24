@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 import core.jpa.entity.Customer;
 
 public class OpenJPATest {
-    public static void main(String... args) {
+    public static void main(String...args) {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("testjpa");
 
         EntityManager em = entityManagerFactory.createEntityManager();

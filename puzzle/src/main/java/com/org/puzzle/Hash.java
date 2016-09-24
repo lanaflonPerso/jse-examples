@@ -40,7 +40,7 @@ public class Hash {
      * @param args
      * @throws CloneNotSupportedException
      */
-    public static void main(String... args) throws CloneNotSupportedException {
+    public static void main(String...args) throws CloneNotSupportedException {
         Name name = new Name("Himansu");
         System.out.println(name);
         System.out.println(name.hashCode());

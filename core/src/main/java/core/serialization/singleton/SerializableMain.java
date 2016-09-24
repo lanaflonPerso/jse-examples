@@ -17,7 +17,7 @@ public class SerializableMain {
      * @throws FileNotFoundException
      * @throws ClassNotFoundException
      */
-    public static void main(String... args) throws IOException, ClassNotFoundException {
+    public static void main(String...args) throws IOException, ClassNotFoundException {
         Singleton singleton = Singleton.getInstance();
 
         serialized(singleton);

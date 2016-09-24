@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class HashMapRead {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Map<String, String> loans = new HashMap<>();
         entrySet(loans);
         keySet(loans);

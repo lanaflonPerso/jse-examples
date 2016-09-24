@@ -32,7 +32,7 @@ import com.iluwatar.servicelayer.wizard.WizardDaoImpl;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // populate the in-memory database
         initData();
         // query the data using the service

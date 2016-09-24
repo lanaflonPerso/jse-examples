@@ -6,7 +6,7 @@ package com.iluwatar.callback;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Task task = new SimpleTask();
         Callback callback = new Callback() {
             @Override

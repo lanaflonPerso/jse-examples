@@ -5,7 +5,7 @@ import java.io.File;
 public class ListFile {
     private static int counter = 0;
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         final String FOLDER_PATH = "C:/Central Module/JSF/CAMT Jars";
         recursiveSearch(new File(FOLDER_PATH));
         System.out.println("Total No Of Files : " + counter);

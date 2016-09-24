@@ -10,7 +10,7 @@ import java.util.Stack;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         Stack<StarMemento> states = new Stack<>();
 
         Star star = new Star(StarType.SUN, 10000000, 500000);

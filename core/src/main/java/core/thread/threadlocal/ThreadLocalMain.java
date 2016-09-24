@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class ThreadLocalMain {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String...args) throws IOException {
         Thread t1 = new Thread(new ThreadLocalThread());
         Thread t2 = new Thread(new ThreadLocalThread());
 

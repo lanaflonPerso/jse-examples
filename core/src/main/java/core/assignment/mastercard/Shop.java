@@ -7,7 +7,7 @@ import java.util.Map;
  * Created by ehimnay on 07/09/2016.
  */
 public class Shop {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Map<String, Double> priceList = new HashMap<String, Double>() {
             {
                 put("pen", 1.0);

@@ -5,7 +5,7 @@ package core.socket.clientserver;
  */
 public class GreetServer extends Thread {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         final int port = 6066;
         final int timeout = 100000;
         Thread serverThread = new Thread(new ServerThread(port, timeout));

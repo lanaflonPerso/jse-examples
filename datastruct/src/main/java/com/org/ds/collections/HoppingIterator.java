@@ -43,7 +43,7 @@ public class HoppingIterator<T> implements Iterator<T> {
         first = true;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         List<Integer> list = new ArrayList<Integer>();
         list.add(1);
         list.add(2);

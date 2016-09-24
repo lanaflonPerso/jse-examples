@@ -5,7 +5,7 @@ class SynchronizedThread implements Runnable {
     private Object lock = new Object();
     private String[] message = null;
 
-    public SynchronizedThread(String... argsmessage) {
+    public SynchronizedThread(String...argsmessage) {
         this.message = message;
     }
 

@@ -10,7 +10,7 @@ public class MD5PasswordHashSalt {
 
     private Date dob;
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         String passwordToHash = "himansu";
         String generatedPassword = null;
         byte[] bytes = null;

@@ -10,7 +10,7 @@ package com.iluwatar.poisonpill;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         MessageQueue queue = new SimpleMessageQueue(10000);
 
         final Producer producer = new Producer("PRODUCER_1", queue);

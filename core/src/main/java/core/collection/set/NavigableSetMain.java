@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 public class NavigableSetMain {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         NavigableSet<String> navigableSet = new TreeSet<String>(Arrays.asList("X", "B", "A", "Z", "T"));
 

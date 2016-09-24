@@ -47,7 +47,7 @@ public class LongestSubstringWithNoRepetition {
         return (windowEnd - windowStart) > (maxWindowEnd - maxWindowStart);
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         System.out.println(lengthOfLongestSubstring("cbadaxyzmnopqrhij"));
     }
 }

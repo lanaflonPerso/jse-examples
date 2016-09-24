@@ -12,7 +12,7 @@ package com.iluwatar.multiton;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         System.out.println("KHAMUL=" + Nazgul.getInstance(NazgulName.KHAMUL));
         System.out.println("MURAZOR=" + Nazgul.getInstance(NazgulName.MURAZOR));
         System.out.println("DWAR=" + Nazgul.getInstance(NazgulName.DWAR));

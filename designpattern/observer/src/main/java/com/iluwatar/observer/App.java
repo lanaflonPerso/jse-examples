@@ -12,7 +12,7 @@ import com.iluwatar.observer.generic.GWeather;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         Weather weather = new Weather();
         weather.addObserver(new Orcs());

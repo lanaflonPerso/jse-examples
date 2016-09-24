@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class OpenFile {
-    public static void main(String... args) {
+    public static void main(String...args) {
         File file = new File("C:/Central Module/CAMT-2014_V2.pptx");
         if (Desktop.isDesktopSupported()) {
             if (file.exists()) {

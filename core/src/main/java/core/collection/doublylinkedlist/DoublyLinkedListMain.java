@@ -3,7 +3,7 @@ package core.collection.doublylinkedlist;
 import java.util.Scanner;
 
 class DoublyLinkedListMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         Scanner scan = new Scanner(System.in);
         DoublyLinkedList obj = new DoublyLinkedList();
         while (true) {

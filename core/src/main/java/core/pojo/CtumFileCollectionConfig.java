@@ -63,7 +63,7 @@ public class CtumFileCollectionConfig {
         return availableDestinationDirectories;
     }
 
-    public void setAvailableDestinationDirectories(final String... argsavailableDestinationDirectories) {
+    public void setAvailableDestinationDirectories(final String...argsavailableDestinationDirectories) {
         this.availableDestinationDirectories = availableDestinationDirectories;
     }
 

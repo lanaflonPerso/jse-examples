@@ -23,7 +23,7 @@ import com.iluwatar.flux.view.MenuView;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         // initialize and wire the system
         MenuStore menuStore = new MenuStore();
         Dispatcher.getInstance().registerStore(menuStore);

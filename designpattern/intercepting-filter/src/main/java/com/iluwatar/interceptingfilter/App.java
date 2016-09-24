@@ -10,7 +10,7 @@ package com.iluwatar.interceptingfilter;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         FilterManager filterManager = new FilterManager(new Target());
         filterManager.addFilter(new NameFilter());
         filterManager.addFilter(new ContactFilter());

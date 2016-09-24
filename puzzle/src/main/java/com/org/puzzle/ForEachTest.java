@@ -9,7 +9,7 @@ public class ForEachTest {
     /**
      * @param args
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
         List<String> test = new ArrayList<String>();
         test.add("1");
         test.add("2");

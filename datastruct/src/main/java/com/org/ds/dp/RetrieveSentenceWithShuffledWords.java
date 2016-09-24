@@ -93,7 +93,7 @@ public class RetrieveSentenceWithShuffledWords {
         return false;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         String sentence = "akuqciborwnxof";
         Map<String, String> dictionary = new HashMap<String, String>();
 

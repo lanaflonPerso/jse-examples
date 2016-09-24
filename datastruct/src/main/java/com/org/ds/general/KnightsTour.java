@@ -89,7 +89,7 @@ public class KnightsTour {
         return x >= 0 && x < boardLength && y >= 0 && y < boardLength;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         // When board length = 3, the Knight's tour should print all positions
         // on the board except (1,1) which can never be visited by the Knight.
         printKnightsTour(3);

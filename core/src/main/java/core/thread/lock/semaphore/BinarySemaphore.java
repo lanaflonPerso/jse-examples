@@ -17,7 +17,7 @@ public class BinarySemaphore {
     }
 
     // Simple tests for the above class.
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         final BinarySemaphore semaphore = new BinarySemaphore(2);
         new Thread(new Runnable() {
             @Override

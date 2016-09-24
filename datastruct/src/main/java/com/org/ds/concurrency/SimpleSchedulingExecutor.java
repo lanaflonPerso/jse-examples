@@ -48,7 +48,7 @@ public class SimpleSchedulingExecutor implements SchedulingExecutor {
         shutdown = false;
     }
 
-    public static void main(String... argsargs) throws InterruptedException {
+    public static void main(String...argsargs) throws InterruptedException {
         final int firstTaskId = 1;
         final int secondTaskId = 2;
         final int thirdTaskId = 3;

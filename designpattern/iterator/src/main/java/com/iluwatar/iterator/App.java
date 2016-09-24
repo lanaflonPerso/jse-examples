@@ -8,7 +8,7 @@ package com.iluwatar.iterator;
  */
 public class App {
 
-    public static void main(String... args) {
+    public static void main(String...args) {
         TreasureChest chest = new TreasureChest();
 
         ItemIterator ringIterator = chest.Iterator(ItemType.RING);

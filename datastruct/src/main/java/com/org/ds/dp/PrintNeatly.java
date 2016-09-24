@@ -117,7 +117,7 @@ public class PrintNeatly {
         return extraSpaces * extraSpaces * extraSpaces;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         String input = "Tendulkar has been honoured with the Padma Vibhushan award,";
         input += " India's second highest civilian award, and the Rajiv Gandhi Khel Ratna";
         input += " award, India's highest sporting honour. He was also the first sportsperson";

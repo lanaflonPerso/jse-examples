@@ -25,7 +25,7 @@ public class MaxIterator<T> implements Iterator<T> {
         this.comparator = comparator;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         Vector<Integer> vec = new Vector<Integer>();
         vec.add(3);
         vec.add(2);

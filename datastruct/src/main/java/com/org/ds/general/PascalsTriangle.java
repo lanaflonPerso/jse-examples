@@ -18,7 +18,7 @@ public class PascalsTriangle {
         }
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         printPascal(10);
     }
 }

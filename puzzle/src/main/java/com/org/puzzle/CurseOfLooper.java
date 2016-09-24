@@ -1,7 +1,7 @@
 package com.org.puzzle;
 
 public class CurseOfLooper {
-    public static void main(String... args) {
+    public static void main(String...args) {
         referenceCompare();
     }
 

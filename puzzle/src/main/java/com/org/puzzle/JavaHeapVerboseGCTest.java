@@ -16,7 +16,7 @@ public class JavaHeapVerboseGCTest {
     /**
      * @param args
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
 
         System.out.println("Java 7 HotSpot Verbose GC UnModifiedListMain Program v1.0");
         System.out.println("Author: Pierre-Hugues Charbonneau CGI Canada");

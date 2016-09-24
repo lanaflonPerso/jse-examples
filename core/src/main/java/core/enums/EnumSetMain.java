@@ -4,7 +4,7 @@ import java.util.EnumSet;
 import java.util.Iterator;
 
 public class EnumSetMain {
-    public static void main(String... args) {
+    public static void main(String...args) {
         // approch 1
         EnumSet<DIRECTION> direction = EnumSet.allOf(DIRECTION.class);
 

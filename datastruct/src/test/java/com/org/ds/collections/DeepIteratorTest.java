@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class DeepIteratorTest {
 
-    public static void main(String args[]) {
+    public static void main(String...args) {
         org.junit.runner.JUnitCore.main("collections.DeepIteratorTest");
         Set<?> x = new HashSet<Integer>();
         Collection<?> c = x;

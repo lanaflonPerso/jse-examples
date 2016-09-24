@@ -75,7 +75,7 @@ public class FindMinLengthUnsortedSubArray {
         return new Pair<Integer, Integer>(startIndex, endIndex);
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         int[] array = { 10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60 };
         Pair<Integer, Integer> solution = findMinLengthUnsortedSubArray(array, new Comparator<Integer>() {
             @Override

@@ -6,7 +6,7 @@ import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
 public class ReadFileWithMappedByteBuffer {
-    public static void main(String... args) throws IOException {
+    public static void main(String...args) throws IOException {
         RandomAccessFile aFile = new RandomAccessFile("test.txt", "r");
         FileChannel inChannel = aFile.getChannel();
         MappedByteBuffer buffer = inChannel.map(FileChannel.MapMode.READ_ONLY, 0, inChannel.size());

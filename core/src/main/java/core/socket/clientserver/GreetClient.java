@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.Socket;
 
 public class GreetClient {
-    public static void main(String... args) {
+    public static void main(String...args) {
         final String HIMANSU_SERVER_IP = "53.88.93.43";
         final int HIMANSU_SERVER_PORT = 6066;
         try {

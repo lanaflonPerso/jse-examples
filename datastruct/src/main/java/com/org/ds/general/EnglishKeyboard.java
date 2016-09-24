@@ -65,7 +65,7 @@ public class EnglishKeyboard {
         return (ch - 'a') % cols;
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         System.out.println(getSequence(6, "google"));
         System.out.println(getSequence(1, "google"));
         System.out.println(getSequence(2, "google"));

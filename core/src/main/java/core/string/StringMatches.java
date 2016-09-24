@@ -4,7 +4,7 @@ package core.string;
  * Created by ehimnay on 19/05/2016.
  */
 public class StringMatches {
-    public static void main(String... args) {
+    public static void main(String...args) {
         String match1 = "(?s)(?i:.*error.*)";
         String match2 = "(?s)(?i:.*command not found.*)";
         String responseMessage = new StringBuffer().append("ss7_tcap -tcn 1")

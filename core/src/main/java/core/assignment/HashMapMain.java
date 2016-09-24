@@ -8,7 +8,7 @@ public class HashMapMain {
     /**
      * @param args
      */
-    public static void main(String... args) {
+    public static void main(String...args) {
         Map<Dummy, Dummy> map = new HashMap<>();
         System.out.println("Put Operation");
         Dummy test = new Dummy("Himansu");

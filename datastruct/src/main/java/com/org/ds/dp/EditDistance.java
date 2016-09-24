@@ -57,7 +57,7 @@ public class EditDistance {
         return dpTable[foo.length()][bar.length()];
     }
 
-    public static void main(String... argsargs) {
+    public static void main(String...argsargs) {
         System.out.println(findEditDistance("c", "abmd"));
     }
 }

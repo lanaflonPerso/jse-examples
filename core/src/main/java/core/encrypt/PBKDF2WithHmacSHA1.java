@@ -10,7 +10,7 @@ import javax.crypto.spec.PBEKeySpec;
 
 public class PBKDF2WithHmacSHA1 {
 
-    public static void main(String... args) throws NoSuchAlgorithmException, InvalidKeySpecException {
+    public static void main(String...args) throws NoSuchAlgorithmException, InvalidKeySpecException {
         String originalPassword = "password";
         String generatedSecuredPasswordHash = generateStorngPasswordHash(originalPassword);
         System.out.println(generatedSecuredPasswordHash);
