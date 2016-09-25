@@ -19,7 +19,7 @@ import java.util.Set;
  * 28: 1,2,4,7,14,28
  * We can see that 28 is the first triangle number to have over five divisors.
  * <p>
- * What is the value of the first triangle number to have over five hundred divisors?
+ * What is the value of the first triangle number to have over five hundreth divisors?
  */
 public class HighlyDivisibleTriangularNumber {
     public static void main(String[] args) {
