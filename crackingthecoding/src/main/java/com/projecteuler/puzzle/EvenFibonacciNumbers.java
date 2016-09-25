@@ -8,7 +8,7 @@ package com.projecteuler.puzzle;
  * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
  */
 public class EvenFibonacciNumbers {
-    public static void main(String...args) {
+    public static void main(String... args) {
         int previous = 0, current = 1, fibonacci = 0;
         int sum = 0, max = 4_0_00_000;
         while (fibonacci <= max) {

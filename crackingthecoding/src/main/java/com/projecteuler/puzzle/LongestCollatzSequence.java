@@ -25,7 +25,7 @@ public class LongestCollatzSequence {
                 number = i;
             }
         }
-        System.out.println(number + " produces longest chain "+ size);
+        System.out.println(number + " produces longest chain " + size);
     }
 
     public static int countCollatzSequence(int n) {

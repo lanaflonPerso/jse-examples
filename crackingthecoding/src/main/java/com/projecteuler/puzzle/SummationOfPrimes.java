@@ -6,7 +6,7 @@ package com.projecteuler.puzzle;
  * Find the sum of all the primes below two million.
  */
 public class SummationOfPrimes {
-    public static void main(String...args) {
+    public static void main(String... args) {
         System.out.println(sumOfNthPrimeNumber(2_0_00_000));
     }
 

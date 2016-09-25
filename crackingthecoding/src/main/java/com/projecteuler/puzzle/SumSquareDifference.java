@@ -18,14 +18,14 @@ public class SumSquareDifference {
 
     }
 
-    public static int squareOfSumOfNumber(int n){
+    public static int squareOfSumOfNumber(int n) {
         // sum of n number n(n+1)/2
-        int number = (n*(n+1))/2;
+        int number = (n * (n + 1)) / 2;
         return number * number;
     }
 
-    public static int sumOfSquareOfNumber(int n){
+    public static int sumOfSquareOfNumber(int n) {
         // sum of square of n number formula [n(n+1)(2n+1)]/6
-        return (n*(n+1)*(2*n+1))/6;
+        return (n * (n + 1) * (2 * n + 1)) / 6;
     }
 }

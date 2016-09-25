@@ -15,7 +15,7 @@ public class SmallestMultiple {
                     break;
                 }
             }
-            if(isDivisible) {
+            if (isDivisible) {
                 System.out.println(i);
                 break;
             }
