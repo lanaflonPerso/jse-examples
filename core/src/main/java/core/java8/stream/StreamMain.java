@@ -2,8 +2,7 @@ package core.java8.stream;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+import java.util.stream.*;
 
 /**
  * * Java program to demonstrate how to use Java 8 Stream API with simple * examples
@@ -16,6 +15,7 @@ public class StreamMain {
         streamArgument();
         streamList();
         streamBuilder();
+        streamDistinct();
     }
 
     public static void streamArray(){
@@ -42,6 +42,14 @@ public class StreamMain {
         IntStream stream = "xyzabcmnodefg".chars().sorted();
         stream.forEach(p -> System.out.print((char)p + " "));
         System.out.println();
+    }
+
+    public static void streamDistinct(){
+        List<String> list = Arrays.asList("a", "x", "a", "b", "c", "b");
+        System.out.println("StreamMain.streamDistinct");
+        list.stream().distinct().forEach(s -> System.out.println(s));
+        List<String> distinct = list.stream().distinct().collect(Collectors.toList());
+        System.out.println(distinct);
     }
 
 

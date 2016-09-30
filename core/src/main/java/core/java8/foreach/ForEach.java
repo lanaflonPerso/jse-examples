@@ -8,7 +8,7 @@ import java.util.function.Consumer;
  * forEach, lambda and functional interface.
  */
 public class ForEach {
-    public static void main(String...args) {
+    public static void main(String... args) {
         List<String> list = Arrays.asList("Himansu", "Nayak", "Ericsson");
         forEach(list);
         lambda(list);
@@ -26,7 +26,7 @@ public class ForEach {
         });
     }
 
-    // Style 2
+    // Style 2 (internal iterator)
     public static void lambda(List<String> list) {
         System.out.println("ForEach.lambda");
         list.forEach(s -> System.out.println(s));
