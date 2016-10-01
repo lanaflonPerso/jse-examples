@@ -7,7 +7,7 @@ import java.util.Arrays;
  * cannot use additional data structures?
  */
 public class UniqueCharInAString {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         final String test = "Himansu";
 
         if (isUniqueUsingASCII(test)) {

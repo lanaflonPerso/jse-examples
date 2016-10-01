@@ -1,7 +1,7 @@
 package core.assignment;
 
 public class CollectionEquilibrium {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         long equilibrium = solution(new int[]{4,1,2,3,3});
         System.out.println(equilibrium);
     }

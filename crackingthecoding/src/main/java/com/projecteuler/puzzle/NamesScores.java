@@ -14,7 +14,7 @@ import java.util.*;
 public class NamesScores {
     static final String A2Z = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String...args) throws FileNotFoundException {
         final File file = new File(loadResource("p022_names.txt"));
         Scanner scanner = new Scanner(file);
         final List<String> nameList = new ArrayList<>();

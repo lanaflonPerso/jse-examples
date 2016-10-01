@@ -1,4 +1,4 @@
-package core.java8.stream;
+package core.java8.stream.filter;
 
 import java.util.Arrays;
 import java.util.List;

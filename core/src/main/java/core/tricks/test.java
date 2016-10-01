@@ -1,14 +1,18 @@
 package core.tricks;
 
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by ehimnay on 20/07/2016.
  */
 public class test {
     public static void main(String...args) {
-        int[] A = { 1, 2, 3, 4, 5, 6 };
-        solution(A, 2);
+        int[] A = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+//        solution(A, 2);
+        List<Integer> list = Arrays.asList( 1, 2, 3, 4, 5, 6 );
+        int size = list.size() <= 10 ? list.size(): 10;
+        System.out.println(list.subList(0, 3));
+
     }
 
     public static void solution(int[] A, int K) {

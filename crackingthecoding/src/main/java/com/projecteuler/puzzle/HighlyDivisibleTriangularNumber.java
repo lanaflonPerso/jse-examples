@@ -22,7 +22,7 @@ import java.util.Set;
  * What is the value of the first triangle number to have over five hundreth divisors?
  */
 public class HighlyDivisibleTriangularNumber {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         int triangleNumber = 0;
         for (int i = 1; true; i++) {
             triangleNumber = triangleNumber + i;

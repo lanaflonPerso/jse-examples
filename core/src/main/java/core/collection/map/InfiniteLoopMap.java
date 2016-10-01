@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class InfiniteLoopMap {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Map<Long, Long> map = new ConcurrentHashMap<>();
         map.put(0L, 0L);
         map.put((1L << 32) + 1, 0L); // hash collision

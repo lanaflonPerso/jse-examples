@@ -9,7 +9,7 @@ import java.util.List;
  * What is the 10 001st prime number?
  */
 public class _10001stPrime {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         System.out.println(nthPrimeNumber(10001));
     }
 

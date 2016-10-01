@@ -4,7 +4,7 @@ package core.assignment;
  * Created by ehimnay on 03/09/2016.
  */
 public class LargestRangeBetweenOrderedCollection {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         System.out.println(largestRange(new int[] {2, 3, 10, 2, 4, 8 , 1}));
         System.out.println(largestRange(new int[] {7, 9, 5, 6, 3, 2 }));
     }

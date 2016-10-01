@@ -15,7 +15,7 @@ import java.util.Set;
  * Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
  */
 public class NonAbundantSums {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         final List<Integer> abundantNumber = new ArrayList<>();
         for (int i = 1; i <= 28123; i++) {
             int sum;

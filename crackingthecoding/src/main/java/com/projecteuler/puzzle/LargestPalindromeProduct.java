@@ -6,7 +6,7 @@ package com.projecteuler.puzzle;
  * Find the largest palindrome made from the product of two 3-digit numbers.
  */
 public class LargestPalindromeProduct {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         int product = 0;
         for (int i = 100; i <= 999; i++) {
             for (int j = 100; j <= 999; j++) {

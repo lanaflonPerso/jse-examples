@@ -16,7 +16,7 @@ package com.projecteuler.puzzle;
  * NOTE: Once the chain starts the terms are allowed to go above one million.
  */
 public class LongestCollatzSequence {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         int size = 0, number = 1;
         for (int i = 1; i < 1_0_00_000; i++) {
             int a = countCollatzSequence(i);

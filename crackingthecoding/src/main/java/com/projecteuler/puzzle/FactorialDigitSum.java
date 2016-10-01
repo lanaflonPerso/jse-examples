@@ -9,7 +9,7 @@ package com.projecteuler.puzzle;
  * Find the sum of the digits in the number 100!
  */
 public class FactorialDigitSum {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         long sum = 0;
         for (int i = 1; i <= 100; i++) {
             sum = sum + factorial(i);

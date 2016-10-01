@@ -12,7 +12,7 @@ import java.util.Set;
  * Evaluate the sum of all the amicable numbers under 10000.
  */
 public class AmicableNumbers {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         final Set<Integer> amicableNumber = new HashSet();
         for (int i = 1; i < 10000; i++) {
             int sum = sumOfDivisor(i);

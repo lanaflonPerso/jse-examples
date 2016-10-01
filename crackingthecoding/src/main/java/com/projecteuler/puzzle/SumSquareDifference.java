@@ -12,7 +12,7 @@ package com.projecteuler.puzzle;
  * Find the difference between the sum of the squares of the first one hundreth natural numbers and the square of the sum.
  */
 public class SumSquareDifference {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         System.out.println(squareOfSumOfNumber(10) - sumOfSquareOfNumber(10));
         System.out.println(squareOfSumOfNumber(100) - sumOfSquareOfNumber(100));
 
