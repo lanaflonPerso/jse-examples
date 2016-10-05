@@ -4,7 +4,7 @@ package com.projecteuler.puzzle;
  * Created by ehimnay on 02/10/2016.
  */
 public class ReciprocalCycles {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         printRecurring(1.0, 3.0);
     }
 

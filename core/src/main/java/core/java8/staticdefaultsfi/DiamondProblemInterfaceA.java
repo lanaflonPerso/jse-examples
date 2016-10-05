@@ -1,10 +1,9 @@
 package core.java8.staticdefaultsfi;
 
 //Not mandatory to annotate @FunctionalInterface. This will help you to declare multiple abstract methods.
-//@FunctionalInterface restrict multiple abstract methods.
-// also check java.util.function pkg in java8
+//@FunctionalInterface restrict multiple abstract methods. also check java.util.function pkg in java8
 //@FunctionalInterface
-public interface DiamondProblemInterfaceA {
+public interface DiamondProblemInterfaceA extends DiamondProblemInterface{
 
     void method1(String str);
 

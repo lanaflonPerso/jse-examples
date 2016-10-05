@@ -4,7 +4,7 @@ package com.crackingthecode.puzzle;
  * Created by ehimnay on 01/10/2016.
  */
 public class RecursiveFibonacci {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         fibonacci(10);
     }
 

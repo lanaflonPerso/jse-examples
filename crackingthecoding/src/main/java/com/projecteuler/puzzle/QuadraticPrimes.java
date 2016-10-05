@@ -20,7 +20,7 @@ package com.projecteuler.puzzle;
 public class QuadraticPrimes {
     static int[] primes = new int[87400];
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         eulerFormula();
         primeFormula();
 

@@ -13,7 +13,7 @@ package com.projecteuler.puzzle;
  Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
  */
 public class DigitFifthPowers {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         digitFourthPower(999999, 5);
     }
 
