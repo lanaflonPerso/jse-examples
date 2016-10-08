@@ -5,7 +5,7 @@ package com.projecteuler.puzzle;
  */
 public class SieveOfEratosthenesPrimeNumber {
     public static void main(String...args) {
-        sieveOfEratos(12);
+        sieveOfEratos(10_00_000);
     }
 
     public static void sieveOfEratos(int n) {
