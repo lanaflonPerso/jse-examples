@@ -1,4 +1,4 @@
-package core.java8.staticdefaultsfi;
+package core.java8.staticdefaultfi;
 
 //Not mandatory to annotate @FunctionalInterface. This will help you to declare multiple abstract methods.
 //@FunctionalInterface restrict multiple abstract methods. also check java.util.function pkg in java8

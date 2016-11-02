@@ -7,7 +7,16 @@ import java.util.Optional;
  * https://examples.javacodegeeks.com/core-java/util/optional/java-8-optional-example/
  */
 public class OptionalJava8 {
-    public static void main(String... args) {
+    public static void main(String...args) {
+
+        // NPE
+        final Integer object = null;
+        Optional<Integer> intOptional = initOptional(object);
+
+        // Works fine
+        final String str = null;
+        Optional<String> strOptional = initOptional(str);
+
         emptyOptional();
         emptyOptional(null);
 
@@ -33,19 +42,19 @@ public class OptionalJava8 {
     }
 
     // null pointer if obj is null
-    public static Optional initOptional(Integer obj) {
+    public static Optional initOptional(final Integer obj) {
         return Optional.of(obj);
     }
 
     // works even if str is null
-    public static Optional initOptional(String str) {
+    public static Optional initOptional(final String str) {
         return Optional.ofNullable(null);
     }
 
     // no such element exception on empty optional
     public static void emptyOptional() {
         try {
-            Optional emptyOptional = Optional.empty();
+            final Optional emptyOptional = Optional.empty();
             System.out.println(emptyOptional.get());
         } catch (NoSuchElementException ex) {
             System.out.println("expected NoSuchElementException");
@@ -54,7 +63,7 @@ public class OptionalJava8 {
 
     // works without throwing noSuchElement exception
     public static void emptyOptional(String defaultString) {
-        Optional emptyOptional = Optional.empty();
+        final Optional emptyOptional = Optional.empty();
         String obj = (String) emptyOptional.orElse(defaultString);
         System.out.println(obj);
     }
@@ -62,16 +71,16 @@ public class OptionalJava8 {
     // explicit throws exception
     public static void emptyOptionalExplicitException() {
         try {
-            Optional emptyOptional = Optional.empty();
+            final Optional emptyOptional = Optional.empty();
             emptyOptional.orElseThrow(IllegalArgumentException::new);
-        } catch (Throwable iae) {
-            System.out.println("IllegalArgumentException");
+        } catch (final Throwable iae) {
+            iae.printStackTrace();
         }
     }
 
     // safe way to check null
     public static void emptyOptionWithIf(String string){
-        Optional stringToUse = Optional.of(string);
+        final Optional stringToUse = Optional.of(string);
         stringToUse.ifPresent(System.out::println);
     }
 

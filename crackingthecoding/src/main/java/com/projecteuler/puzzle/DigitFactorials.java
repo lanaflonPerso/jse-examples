@@ -6,7 +6,7 @@ package com.projecteuler.puzzle;
  * Note: as 1! = 1 and 2! = 2 are not sums they are not included.
  */
 public class DigitFactorials {
-    public static void main(String... args) {
+    public static void main(String...args) {
         // 9999999 bcoz 9! lead to 6 digit. 9! + 8! will make a 7 digit no.
         digitFactorials();
     }

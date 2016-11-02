@@ -1,4 +1,4 @@
-package core.java8.staticdefaultsfi;
+package core.java8.staticdefaultfi;
 
 /**
  * static method inside interface in java 8

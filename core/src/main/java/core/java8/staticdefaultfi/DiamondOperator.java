@@ -1,5 +1,6 @@
-package core.java8.staticdefaultsfi;
+package core.java8.staticdefaultfi;
 
+// https://dzone.com/articles/the-java-8-api-design-principles?edition=219182&utm_source=Daily%20Digest&utm_medium=email&utm_campaign=dd%202016-10-02
 public class DiamondOperator implements DiamondProblemInterfaceA, DiamondProblemInterfaceB {
 
     @Override

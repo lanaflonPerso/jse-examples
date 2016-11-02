@@ -2,22 +2,23 @@ package core.java8.sam;
 
 @FunctionalInterface
 public interface FunctionalInterfaceExample {
-    public void sam();
+    void sam();
 
-//    public void method();
+// multiple abstract method are not allowed
+// void method();
 
-    default void method2(){
+    default void method2() {
 
     }
 
-    default void method3(){
+    default void method3() {
 
     }
 
     @Override
-    public String toString();
+    String toString();
 
     @Override
-    public boolean equals(Object object);
+    boolean equals(Object object);
 
 }
