@@ -1,4 +1,4 @@
-package com.mastercard;
+package com.paddypower;
 
 /**
  * This program plays the game "Fizzbuzz".  It counts to 100, replacing each multiple of 3 with the word "fizz",
