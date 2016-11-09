@@ -1,4 +1,4 @@
-package main.java.com.crackingthecode;
+package com.crackingthecode;
 
 import java.util.Arrays;
 
