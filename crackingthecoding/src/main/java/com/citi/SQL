@@ -1,0 +1,7 @@
+SELECT t.sensor_id, t.event_type, e.value
+FROM events e
+JOIN(
+SELECT sensor_id, event_type, max(time) as mxtime
+FROM events
+GROUP BY sensor_id, event_type) t
+ON t.sensor_id = e.sensor_id AND t.event_type = e.event_type AND t.mxtime = e.time;
