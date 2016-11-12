@@ -1,3 +1,37 @@
+/**
+* Given a table events with the following structure: create table events ( sensor_id integer not null, event_type integer not ull, value integer not null,
+* time times tamp unique not null write an SQL query that -for each sensor and event type (sensor_id, event_type),
+* returns the most recent value (in terms of time). -the table should be ordered by sensor_id (in ascending order), event_type (in ascending order).
+
+* For example, given the following data:
+*
+* Create table events (
+*       sensor_id Integer,
+*       event_type Integer,
+*       value Integer not null,
+*       timestamp unique not null);
+*
+* Write an SQL query that, for each sensor and event type (sensor_id, event_type), returns the most recent value(in terms of time). The table should
+* be ordered by sensor_id(in ascending order), event_type(in ascending order).
+*
+*        sensor_id      event_type      value       time
+*           2               2             5         2014-02-13 12:42:00
+*           2               4             -42       2014-02-13 13:19:57
+*           2               2             2         2014-02-13 14:48:30
+*           3               2             7         2014-02-13 12:54:39
+*           2               3             54        2014-02-13 13:32:36
+*
+* Your query should return the following rowset
+*
+*        sensor_id      event_type      value
+*           2               2             2
+*           2               3             54
+*           2               4             -42
+*           3               2             7
+*
+* The names of the columns in the rowset don't matter, but their order does.
+*/
+
 SELECT t.sensor_id, t.event_type, e.value
 FROM events e
 JOIN(
