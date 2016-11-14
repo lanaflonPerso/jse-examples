@@ -8,7 +8,10 @@ package com.corvil;
  * <p>
  * The robot arm can be controlled using 5 instructions: U (up), D (down), L (left), R (right), P (press).
  * <p>
- * The keypad is arranged as follows: 1 2 3 4 5 6 7 8 9
+ * The keypad is arranged as follows:
+ *              1 2 3
+ *              4 5 6
+ *              7 8 9
  * <p>
  * Input to the program is a PIN number given as an array of digits. The output should be any shortest series of
  * commands to the robot arm that results in the correct PIN number being entered. The PIN number can contain any number
@@ -16,7 +19,7 @@ package com.corvil;
  * <p>
  * Examples (input => output):
  * <p>
- * {1} => “P” {1,2} => “PRP” {5,4,7,9} => “RDP LP DP RRP”
+ * {1} => “P”, {1,2} => “PRP”, {5,4,7,9} => “RDPLPDPRRP”
  */
 public class RobotArm {
         int stepsToMove;
