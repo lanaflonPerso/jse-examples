@@ -3,10 +3,10 @@ package com.synchronoss;
 
 /**
  * Let's define a collection equilibrium element in a finite ordered collection X={x , x . .., x }
- * such that the sum of values to the left and to the right of it (non-inclusive) are equal.
+ * such that the sumOfAll of values to the left and to the right of it (non-inclusive) are equal.
  * In other words, the collection is said to have a collection equilibrium element if there is such position
  * i in X (1≤i≤N) where x +x ...x = x +x ...x Please implement the function collectionEquilibrium to return 0
- * if there is no such value and 1 if there is at least one such value. Note: The sum of values to the left of the leftmost
+ * if there is no such value and 1 if there is at least one such value. Note: The sumOfAll of values to the left of the leftmost
  * element and to the right of the rightmost element is 0.
  *
  * Constraints

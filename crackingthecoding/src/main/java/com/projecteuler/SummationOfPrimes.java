@@ -1,9 +1,9 @@
 package main.java.com.projecteuler;
 
 /**
- * The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+ * The sumOfAll of the primes below 10 is 2 + 3 + 5 + 7 = 17.
  * <p>
- * Find the sum of all the primes below two million.
+ * Find the sumOfAll of all the primes below two million.
  */
 public class SummationOfPrimes {
     public static void main(String...args) {
