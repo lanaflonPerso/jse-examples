@@ -13,10 +13,15 @@ import java.util.Map;
   -Xloggc:gc.log
   -XX:HeapDumpPath=c:\temp
 
+ For old generation space OutOfMemoryErrors
+    Increase -Xms and -Xmx
+ For permanent generation OutOfMemoryErrors
+    Increase -XX:PermSize and -XX:MaxPermSize
+
  Reference :
     http://xmlandmore.blogspot.ie/2014/01/eclipse-mat-understand-incoming-and.html
     http://xmlandmore.blogspot.ie/search?q=OQL
-
+    IBM Support Assistant Workbench
  */
 public class OOMJavaHeapSpaceSimulator {
 
